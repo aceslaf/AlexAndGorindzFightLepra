@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Narrow Jumbotron Template for Bootstrap</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Bootstrap core CSS --><!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="css/jubmatron.css" rel="stylesheet">
+    <style type="text/css">
+      .langBig {
+              background-color: rgb(165,182,42) !important; 
+              background-image: none !important;
+              height: 450px;
+              text-align: center;
+
+      }
+      .langBig>p{
+        padding-top: 55%;
+        font-size: 75px;
+      }
+
+      .bggreen a{
+        background-color: rgb(165,182,42) !important;
+        background-image: none !important;
+        color: white !important;
+      }
+
+      .btn-success:hover, .btn-success{
+        background-color: rgb(165,182,42) !important;
+        border: none;
+        background-image: none;
+      }
+      .slider{
+        display: none;
+      }
+      
+      .header{
+        border: none;
+      }
+
+
+      body > .container{
+        max-width: 950px;
+      }
+
+      .lang .container{
+        max-width: 950px;
+      }
+
+      .activelink, .activelink:hover{
+        background-color: #EEE !important;
+      }
+
+      .nav li a:hover{
+        background-color: #EEE !important;
+        color: #000 !important;
+      }
+
+      .jumbotron{
+        background-color: white ;
+      }
+
+      .jumbotron h1{
+        font-size: 35px;
+      }
+
+      .lead{
+           text-align: justify;
+           font-size: 16px !important;
+      }
+
+      /*Trgnat granicnik*/
+      .navbar-default{
+          box-shadow: none;
+          background:none;
+          border: none;
+      }
+
+      .lang{
+        width: 100%;
+        background-color: rgba(163,163,165, 0.5);
+        height: 30px;
+        line-height: 25px;
+      }
+      .nasekopcehead{
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+      }
+      .nasekopce{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        margin: 0 25%;
+      }
+
+    </style> 
+    <script type="text/javascript">
+        $(document).ready(function(){
+          console.log("vleze tuka");              
+           $(".slider1").slideDown(1000, function(){
+                        $(".slider2").slideDown(1000, function(){
+                                  $(".slider3").slideDown(1000);     
+                         });     
+           });     
+                
+        });
+    </script>
+
+    <link href="css/reset.css" rel="stylesheet">
+  </head>
+
+  <body>
+  <!-- <div class="lang">
+    <div class="container">
+      <div class="pull-right">
+        MK EN DE
+      </div>
+    </div>
+
+  </div> -->
+    <div class="container">
+
+
+      <div class="jumbotron">
+        <h1><img src="images/play1.png" /></h1>
+        <!-- <h1>ЛЕТРА ПРЕВОДИ</h1> -->
+        <p class="lead">
+          <div class="row">
+              <div class="col-xs-3 col-xs-offset-1 langBig slider slider1 " >                 
+                 <p >MK</p>
+              </div>
+              <div class="col-xs-3 col-xs-offset-1 langBig slider slider2" >
+                 <p >DE</p>
+              </div>
+              <div class="col-xs-3 col-xs-offset-1 langBig slider slider3" >
+                 <p >EN</p>                
+              </div>
+          </div>
+        </p>
+         
+        <!-- <h1>ЛЕТРА ПРЕВОДИ</h1> -->
+        <h1><img src="images/play1.png" /></h1>
+        <p style="text-align: center;"><a class="btn btn-lg btn-success" href="#" role="button">Контакт</a></p>
+      </div>
+
+       <div>
+
+
+
+ 
+  
+<!-- <div class="row">
+  <div class="col-sm-4">
+    <h3>uslugi 1</h3>
+    <div>kpce</div>
+    <div>kopce</div>
+    <div>kopce</div>
+  </div>
+  <div class="col-sm-4">
+    <h3>uslugi 1</h3>
+    <div>kpce</div>
+    <div>kopce</div>
+    <div>kopce</div> 
+  </div>
+
+  <div class="col-sm-4">
+    <h3>uslugi 1</h3>
+    <div>kpce</div>
+    <div>kopce</div>
+    <div>kopce</div>
+  </div>
+</div>
+ -->
+
+       
+        </div>
+
+      <div class="footer">
+        <p>&copy; Летра Преводи 2014</p>
+      </div>
+
+    </div> <!-- /container -->
+  </body>
+</html>
