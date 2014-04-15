@@ -8,7 +8,7 @@
       <meta name="author" content="">
       <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
       <title>Letra</title>
-      <link rel="shortcut icon" href="images/logo1.png" />
+      <link rel="shortcut icon" href="../images/logo1.png" />
       <!--bootstrap-->
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
       <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
