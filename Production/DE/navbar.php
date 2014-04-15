@@ -46,17 +46,17 @@
         <img src="../images/logo1.png" class="logoimg"/>
         <div class="navbar-collapse collapse">
            <ul class="nav navbar-nav bigmenu">
-              <li class="active"><a href="home.html">Home</a></li>
+              <li class="active"><a href="home.php">Home</a></li>
               <li class="dropdown">
                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">About ussr <b class="caret"></b></a>
                  <ul class="dropdown-menu">
-                    <li><a href="aboutus1.html">What we do</a></li>
-                    <li><a href="aboutus2.html">Who we are</a></li>
-                    <li><a href="aboutus3.html">Team</a></li>
+                    <li><a href="aboutus1.php">What we do</a></li>
+                    <li><a href="aboutus2.php">Who we are</a></li>
+                    <li><a href="aboutus3.php">Team</a></li>
                  </ul>
               </li>
-              <li><a href="services.html" >Uslugi</a></li>
-              <li><a href="galery.html" style="background-image:none">Uslugi</a></li>
+              <li><a href="services.php" >Uslugi</a></li>
+              <li><a href="galery.php" style="background-image:none">Uslugi</a></li>
            </ul>
            <ul class="nav navbar-nav navbar-right bigmenu" style="margin-right:-5px">
               <li><a href="#" style="background-color: rgb(165,182,42) !important; background-image:none;">Contact</a></li>
@@ -84,9 +84,10 @@
                     <li class="dropdown open">
                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About us <b class="caret"></b></a>
                        <ul class="dropdown-menu">
-                          <li><a href="#">Action</a></li>
-                          <li><a href="#">Another action</a></li>
-                          <li><a href="#">Something else here</a></li>
+							<li><a href="aboutus1.php">What we do</a></li>
+							<li><a href="aboutus2.php">Who we are</a></li>
+							
+							<li><a href="aboutus3.php">Team</a></li>
                        </ul>
                     </li>
                     <li><a href="#">Uslugi</a></li>
