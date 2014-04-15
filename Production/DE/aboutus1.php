@@ -38,17 +38,8 @@
              return;
 	         }
            if(nWidth<1400){	         
-		     var picWidth=Math.floor(nWidth*0.65);
-             $(".headerpic>img").attr("width",picWidth); 
-			 
-             var divHeight=$(".headerpic").height();
-             var picHeight=0.4688*picWidth;
-			 var padding=Math.floor((divHeight-picHeight)/2);
-			 var paddingString=padding+"px";
-			 
-             $(".headerpic").css("padding-top",paddingString);			 
-			 $(".headerpic").css("padding-bottom",paddingString);
-	       }else{		     
+             $(".headerpic>img").attr("width",Math.floor(nWidth*0.65)); 
+	         }else{
              $(".headerpic>img").attr("width",1045); 
            }
          }
@@ -76,7 +67,7 @@
         <div class="headerpic col-sm-6  ">
           <img src="http://alldaycreative.co.uk/wp-content/themes/allday/images/new-slide-one.jpg"/>
         </div>
-        <div class=" col-sm-6">
+        <div class="headerpic col-sm-6">
             <div class="contentHolder" >
 				 
                 
