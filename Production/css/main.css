@@ -115,19 +115,25 @@
  .headerstuff{
   margin-top:10px;
  }
- .contentHolder {
+ .bigMessage {
     padding: 22%;		 
     text-align:center;
  }
- .contentHolder >h1{
- 	font-size: 225%;
+ .bigMessage  >h1{
+   font-size: 225%;
+ }
+ .contentHolder{
+     font-family: "Bariol_Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+ .contentHolder >h1, .contentHolder >h2, .contentHolder >h3{ 	  
     font-family: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color:rgb(165,182,42);
- }
+ } 
  .contentHolder >p{
     font-family: "Bariol_Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-     color: #999;
+    color: #999;
  }
+ 
   .footer {
      padding-bottom: 5px;		  
   } 
