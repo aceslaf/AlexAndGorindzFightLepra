@@ -139,3 +139,13 @@
    color: white !important;
    font-weight: bold;
  }
+
+  ul {
+        list-style-type: square;
+  }
+  ul > li {
+      color: green;
+  }
+  ul > li > span {
+      color: black;
+  }
