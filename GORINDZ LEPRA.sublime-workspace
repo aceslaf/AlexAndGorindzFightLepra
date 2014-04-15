@@ -4,155 +4,90 @@
 		"selected_items":
 		[
 			[
-				"text",
-				"text-align"
+				"str_rep",
+				"str_replace"
 			],
 			[
-				"font",
-				"font-size"
+				"ima",
+				"imageFind"
 			],
 			[
-				"fo",
-				"font-size"
+				"pos",
+				"pos1"
 			],
 			[
-				"typographySm",
-				"typographySmall"
+				"sub",
+				"substr"
 			],
 			[
-				"mar",
-				"margin-bottom"
+				"lat",
+				"latLngString"
 			],
 			[
-				"pad",
-				"padding"
+				"time",
+				"timeArray"
 			],
 			[
-				"bacg",
-				"background-color"
+				"sega",
+				"segaTimestamp"
 			],
 			[
-				"t",
-				"typography"
+				"se",
+				"sekundi"
 			],
 			[
-				"pa",
-				"padding-right"
+				"timeL",
+				"timeLeft"
 			],
 			[
-				"ma",
-				"margin-left"
+				"dea",
+				"dealsArray"
 			],
 			[
-				"padd",
-				"padding-left"
+				"deals",
+				"dealsArray"
 			],
 			[
-				"ba",
-				"background-image"
+				"deal",
+				"dealTipped"
 			],
 			[
-				"border-",
-				"border-bottom"
+				"var",
+				"var_dump"
 			],
 			[
-				"slider",
-				"slider1"
-			],
-			[
-				"la",
-				"langBig"
-			],
-			[
-				"mari",
-				"margin"
-			],
-			[
-				"back",
-				"background-color"
-			],
-			[
-				"bac",
-				"background-clip"
-			],
-			[
-				"h",
-				"height	Attr"
-			],
-			[
-				"co",
-				"color"
-			],
-			[
-				"max-",
-				"max-width"
+				"links",
+				"linksArray"
 			],
 			[
 				"wid",
 				"width"
+			],
+			[
+				"backg",
+				"background-color"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"contents": "",
 			"settings":
 			{
-				"buffer_size": 7590,
+				"buffer_size": 0,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index2.html",
-			"settings":
-			{
-				"buffer_size": 8180,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index3.html",
-			"settings":
-			{
-				"buffer_size": 10833,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Intro.html",
-			"settings":
-			{
-				"buffer_size": 4856,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/reset.css",
-			"settings":
-			{
-				"buffer_size": 1058,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/jubmatron.css",
-			"settings":
-			{
-				"buffer_size": 1411,
-				"line_ending": "Windows",
-				"name": "/* Space out content a bit */"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 392.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 416.0
 	},
 	"console":
 	{
@@ -172,7 +107,73 @@
 	},
 	"file_history":
 	[
-		"/D/LEPRA WITH GORINDZ/css/reset.css"
+		"/D/xampp/htdocs/LEPRA/LEPRA_WITH_GORINDZ/FINAL_PATH/DE/index.php",
+		"/C/Users/Gorjan/Documents/GitHub/AlexAndGorindzFightLepra/Production/langRedirect.php",
+		"/C/Users/Gorjan/Documents/GitHub/AlexAndGorindzFightLepra/Production/EN/navbar.php",
+		"/C/Users/Gorjan/Documents/GitHub/AlexAndGorindzFightLepra/Production/MK/navbar.php",
+		"/C/Users/Gorjan/Documents/GitHub/AlexAndGorindzFightLepra/Production/EN/index.php",
+		"/C/Users/Gorjan/Documents/GitHub/AlexAndGorindzFightLepra/Production/MK/index.php",
+		"/D/xampp/htdocs/LEPRA/LEPRA_WITH_GORINDZ/FINAL_PATH/DE/navbar.php",
+		"/D/xampp/htdocs/LEPRA/LEPRA_WITH_GORINDZ/FINAL_PATH/DE/css/main.css",
+		"/C/Users/Gorjan/Documents/GitHub/AlexAndGorindzFightLepra/Production/DE/navbar.php",
+		"/D/Clients/dealsmate/parsers/popustiohridmk.php",
+		"/C/Users/Gorjan/Documents/GitHub/AlexAndGorindzFightLepra/index.html",
+		"/D/Clients/dealsmate/parsers/sakampopustmk8.php",
+		"/D/Clients/dealsmate/parsers/sakampopustmk.php",
+		"/D/Clients/dealsmate/parsers/groupermk10.php",
+		"/D/Clients/dealsmate/parsers/groupermk8.php",
+		"/D/Clients/dealsmate/getdeals2.php",
+		"/D/FINKI/МИС/МИС Дефиниции 2",
+		"/D/Clients/dealsmate/getDeals.php",
+		"/D/Clients/dealsmate/parsers/lapajmk.php",
+		"/D/Clients/dealsmate/parsers/kelepurmk.php",
+		"/D/Clients/dealsmate/parsers/kupinapopustmk.php",
+		"/D/Clients/dealsmate/db/dbconnect.php",
+		"/C/Users/Gorjan/Downloads/gorjan.info",
+		"/C/Users/Gorjan/Documents/test.html",
+		"/D/Clients/dealsmate/parsers/domparser.php",
+		"/D/Clients/dealsmate/parsers/groupermk8",
+		"/D/Clients/dealsmate/parsers/fixlocations.php",
+		"/D/Clients/dealsmate/index.php",
+		"/D/Clients/dealsmate/parsers/groupermk.php",
+		"/C/xampp/htdocs/dealsmate_local/parsers/groupermk.php",
+		"/C/xampp/htdocs/dealsmate_local/db/dbconnect.php",
+		"/D/Clients/dealsmate/example_basic_selector.php",
+		"/D/Clients/dealsmate/parser.php",
+		"/D/Clients/letsgoout-app/index.html",
+		"/D/Clients/letsgoout-app/web/forgotPassword.php",
+		"/D/Clients/letsgoout-app/web/findfriends.php",
+		"/D/Clients/letsgoout-app/web/feedback.php",
+		"/D/Clients/letsgoout-app/web/event.php",
+		"/D/Clients/letsgoout-app/web/editProfile.php",
+		"/D/Clients/letsgoout-app/web/edit.php",
+		"/D/Clients/letsgoout-app/web/dbfail.php",
+		"/D/Clients/letsgoout-app/web/base_facebook.php",
+		"/D/Clients/letsgoout-app/web/addFriend.php",
+		"/D/Clients/letsgoout-app/web/about.php",
+		"/D/Clients/letsgoout-app/web/tutorial.php",
+		"/D/Clients/letsgoout-app/web/template.php",
+		"/D/Clients/letsgoout-app/web/setStar.php",
+		"/D/Clients/letsgoout-app/web/resetPassword.php",
+		"/D/Clients/letsgoout-app/web/register.php",
+		"/D/Clients/letsgoout-app/web/register2.php",
+		"/D/Clients/letsgoout-app/web/readNotif.php",
+		"/D/Clients/letsgoout-app/web/postLocation.php",
+		"/D/Clients/letsgoout-app/web/optimize.php",
+		"/D/Clients/letsgoout-app/web/post.php",
+		"/D/Clients/letsgoout-app/web/news.php",
+		"/D/Clients/letsgoout-app/web/setTheme.php",
+		"/D/Clients/letsgoout-app/web/myevents.php",
+		"/D/Clients/letsgoout-app/web/menu.php",
+		"/D/Clients/letsgoout-app/web/logout.php",
+		"/D/Clients/letsgoout-app/web/login.php",
+		"/D/Clients/letsgoout-app/web/listfriends.php",
+		"/D/Clients/letsgoout-app/web/joinEvent.php",
+		"/D/Clients/letsgoout-app/web/index.php",
+		"/D/Clients/letsgoout-app/web/index2.php",
+		"/D/Clients/Gorjan.info3/index.php",
+		"/D/Clients/Gorjan.info3/css/main.css",
+		"/C/Users/Gorjan/Workspace/stateful2/src/main/webapp/pages/sendSMS.jsp"
 	],
 	"find":
 	{
@@ -190,20 +191,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"typ",
-			"small",
-			"0.3",
-			"asdbackground",
-			"li",
-			"typ",
-			"jumb",
-			"color",
-			"back",
-			"jumbo",
-			"jumbe",
-			"165",
-			";\n",
-			"font"
+			"cpanel",
+			"cancle",
+			"'",
+			"Hr",
+			"toggle",
+			"togg",
+			"togglemen",
+			"toggle",
+			"text"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -211,6 +207,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -218,19 +215,25 @@
 		"whole_word": false,
 		"wrap": true
 	},
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "D:\\GitHub\\AlexAndGorindzFightLepra"
+		}
+	],
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7590,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -238,170 +241,18 @@
 						[
 							[
 								0,
-								7590
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 245.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index2.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8180,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								8180
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 462.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "index3.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10833,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6905,
-								6905
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3227.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "Intro.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4856,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								4856
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 238.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "css/reset.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1058,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								633,
-								597
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "css/jubmatron.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1411,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								535,
-								540
-							]
-						],
-						"settings":
-						{
-							"auto_name": "/* Space out content a bit */",
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 462.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -409,11 +260,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 22.0
+		"height": 23.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -438,14 +289,10 @@
 		]
 	},
 	"menu_visible": true,
-	"output.find_results":
-	{
-		"height": 0.0
-	},
-	"project": "GORINDZ LEPRA.sublime-project",
+	"project": "",
 	"replace":
 	{
-		"height": 40.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -453,16 +300,56 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"g",
+				"getdeals2.php"
+			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"gr",
+				"D:\\Clients\\grouper\\grouper.sublime-project"
+			],
+			[
+				"lep",
+				"D:\\GitHub\\AlexAndGorindzFightLepra\\GORINDZ LEPRA.sublime-project"
+			],
+			[
+				"lot",
+				"D:\\Clients\\lotto\\lotto.sublime-project"
+			],
+			[
+				"gro",
+				"D:\\Clients\\grouper\\grouper.sublime-project"
+			],
+			[
+				"",
+				"D:\\Clients\\dealsmate\\dealsmate.sublime-project"
+			],
+			[
+				"sko",
+				"D:\\xampp\\htdocs\\SeeSkopje\\seeskopje.sublime-project"
+			],
+			[
+				"le",
+				"D:\\Clients\\letsgoout-app\\letsgoout.sublime-project"
+			],
+			[
+				"g",
+				"D:\\Clients\\grouper\\grouper.sublime-project"
+			],
+			[
+				"let",
+				"D:\\Clients\\letsgoout-app\\letsgoout.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
@@ -479,7 +366,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 195.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
