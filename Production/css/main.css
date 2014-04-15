@@ -145,6 +145,9 @@
    color: white !important;
    font-weight: bold;
  }
+ .headerpic{
+   overflow: hidden;
+ }
 
   ul {
         list-style-type: square;

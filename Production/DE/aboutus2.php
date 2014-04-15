@@ -23,38 +23,28 @@
 
       <script type="text/javascript">
          $(document).ready(function(){
-			fixPicture();
+			               fixPicture();
          });
          
          $(window).resize(function(){
-			fixPicture();
+			               fixPicture();
          });
 
          function fixPicture(){
          	
-             var nWidth=$(window).width();   
+            var nWidth=$(window).width();   
 	         if(nWidth<768){
 	           $(".headerpic>img").attr("width",nWidth);
              return;
 	         }
-           if(nWidth<1400){	         
-             $(".headerpic>img").attr("width",Math.floor(nWidth*0.65)); 
-	         }else{
-             $(".headerpic>img").attr("width",1045); 
+	         if((nWidth>=768)&&(nWidth<=1180)){
+	           $(".headerpic>img").attr("width",640); 
+           }else{
+             $(".headerpic>img").attr("width",Math.floor(nWidth*0.55)); 
            }
+	         
          }
       </script>
-      <style type="text/css">
-           .contentHolder{
-              text-align: justify;
-              padding-top: 8%;
-              padding-bottom: 10%;
-           }
-           .contentHolder > div{
-              padding-left: 10%;
-
-           }
-      </style>
    </head>
    <body>
    <?php require_once('navbar.php'); ?>
@@ -68,48 +58,23 @@
           <img src="http://alldaycreative.co.uk/wp-content/themes/allday/images/new-slide-one.jpg"/>
         </div>
         <div class="headerpic col-sm-6">
-            <div class="contentHolder" >
-				 
-                
-              <h3>Sprachen:</h3>
-              <div>
-                <ul>
-                  <li><span>Deutsch</span></li>
-                  <li><span>Englisch</span></li>
-                  <li><span>Spanisch</span></li>
-                  <li><span>Mazedonisch</span></li>
-                </ul>
-              </div>
+          <div class="contentHolder" >
+				    <h3> Qualität</h3>
+            <p>
+                Die Hochwertigkeit, die LETRA Ihnen anbietet bekommen Sie nirgendwo sonst. Wir sind die besten in unserem Geschäft und das haben schon viele Klienten bezeugt. Suchen Sie nicht weiter, wenn sie eine professionelle, schnelle und hochwertige Übersetzung brauchen. Überzeugen Sie sich selbst von unseren Fachkenntnissen und Fertigkeiten.
+           </p>
+
+            <h3>Schnelligkeit</h3>
+            <p>
+              Brauchen Sie eine schnelle Übersetzung? Hier sind Sie richtig. STOP gibt es für uns nicht, genauso wenig wie UNMÖGLICH. Wir machen alles MÖGLICH, so SCHNELL wie MÖGLICH. Und das alles ohne an Qualität einbüßen zu müssen, so gut sind wir. Schneller als bei uns geht es nicht, fragen Sie nicht weiter. Die Konkurenz lügt.
+            </p>
 
 
-
-              <h3>Nur für Übersetzungen:</h3>
-              <div>
-                <ul>              
-                <li><span>Französich</span></li>
-                <li><span>Albanisch</span></li>
-                <li><span>Croatisch</span></li>
-                <li><span>Serbisch</span></li>
-                <li><span>Griechisch</span></li>
-                <li><span>Niederländisch</span></li>
-                <li><span>Italienisch</span></li>
-                </ul>
-              </div>
-
-              <h3>Branchen:</h3>
-              <div>
-                <ul>
-                  <li><span>Jura (Straf-, Zivil-, Handels-, Korporationsrecht, europäisches Recht uva.)</span></li>
-                  <li><span>Wirtschaft, Finanzen und Bankwesen</span></li>
-                  <li><span>Architektur</span></li>
-                  <li><span>Geologie</span></li>
-                  <li><span>IT</span></li>
-                  <li><span>Medizin und Pharmakologie</span></li>
-                </ul>
-              </div>
-
-
-            </div>
+            <h3>Diskretion</h3>
+            <p>
+              Vertraulich? Kein problem, vertrauen Sie uns. Alle unsere mitarbeiter sind an eine Geheimhaltungsvereinbarung gebunden. Wir achten auf den Schutz Ihrer Daten und versichern sorgfältigen Umgang mit Ihren Dokumenten. Was bei LETRA passiert, bleibt bei LETRA.
+            </p>
+          </div>
         </div> 
        
       </div>
