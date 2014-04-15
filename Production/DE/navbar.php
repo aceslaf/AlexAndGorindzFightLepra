@@ -43,7 +43,7 @@
   <div class="stripe">
   <div class="container">
      <div id="bigmenu">
-        <img src="images/logo1.png" class="logoimg"/>
+        <img src="../images/logo1.png" class="logoimg"/>
         <div class="navbar-collapse collapse">
            <ul class="nav navbar-nav bigmenu">
               <li class="active"><a href="home.html">Home</a></li>
@@ -75,7 +75,7 @@
                  <span class="icon-bar"></span>
                  </button>
                  <a class="navbar-brand  asdbackground" href="#">Летра</a>
-                 <!-- <img src="images/logo.png" width="35" height="35" /> -->
+                 <!-- <img src="../images/logo.png" width="35" height="35" /> -->
               </div>
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

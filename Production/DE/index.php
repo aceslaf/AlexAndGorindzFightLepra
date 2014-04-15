@@ -16,10 +16,10 @@
       <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.css">
       <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.css">
       <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-      <link href="css/jubmatron.css" rel="stylesheet">
+      <link href="../css/jubmatron.css" rel="stylesheet">
       <!--end bootstrap-->
-      <link href="css/reset.css" rel="stylesheet">
-      <link href="css/main.css" rel="stylesheet">
+      <link href="../css/reset.css" rel="stylesheet">
+      <link href="../css/main.css" rel="stylesheet">
 
       <script type="text/javascript">
          $(document).ready(function(){
