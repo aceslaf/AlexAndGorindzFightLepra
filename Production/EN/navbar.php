@@ -31,9 +31,15 @@
   <div class="lang ">
      <div class="container">
         <div class="pull-right" style="margin-top:5px">
+<<<<<<< HEAD
            <a href="">MK</a> 
            <a href="">EN</a>
            <a href="">DE</a>
+=======
+           <a href="../langRedirect.php?lang=MK">MK</a> 
+           <a href="../langRedirect.php?lang=EN">EN</a> 
+           <a href="../langRedirect.php?lang=DE">DE</a> 
+>>>>>>> 3386fdfcb098729449f5d4a4363cc4a89ebbea26
         </div>
      </div>
   </div>
