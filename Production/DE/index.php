@@ -99,34 +99,34 @@
         <div class="headerpic col-sm-6  ">
           <img src="http://alldaycreative.co.uk/wp-content/themes/allday/images/new-slide-one.jpg"/>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 .defaultFont">
             <div class="contentHolder bigMessage" >
 			 <div id="owl-demo" class="owl-carousel owl-theme" >
 	               <div class="item">
 	              
-					 <h1 >
+					 <h1 class="fancyTitleFont colorGreen" >
 						Normal ist überbewertet
 					 </h1>
-					 <p >
+					 <p class="defaultFont">
 					  Wir sind etwas besonderes!
 					 </p>
 				   </div>	 
 				   <div class="item">
 	                  
-	                  <p >
+	                  <p class="defaultFont">
 					  „Wenn Du mit einem Menschen eine Sprache sprichst die er versteht, erreichst Du seinen Kopf (Verstand). Wenn Du mit ihm in seiner Sprache sprichst, erreichst Du sein Herz.‟ 
 					 </p>
-					 <h1 >
+					 <h1 class="fancyTitleFont colorGreen">
 						-Nelson Mandela
 					 </h1>
 					 
 				   </div>	 
 				   <div class="item">
 	              
-					 <h1 >
+					 <h1 class="fancyTitleFont colorGreen">
 						Pure awesomeness
 					 </h1>
-					 <p >
+					 <p class="defaultFont">
 					 in 12 diferent languages
 					 </p>
 

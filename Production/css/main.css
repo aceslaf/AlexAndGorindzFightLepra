@@ -123,17 +123,30 @@
  .bigMessage  >h1{
    font-size: 225%;
  }
+ .contentHolder h1, .contentHolder h2, .contentHolder h3{
+     font-family: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     color:rgb(165,182,42);
+ }
+ .contentHolder p{
+    font-family: "Bariol_Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #999;
+ }
  .contentHolder{
      font-family: "Bariol_Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
  }
- .contentHolder h1, .contentHolder h2, .contentHolder h3{ 	  
+  .fancyTitleFont{
     font-family: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color:rgb(165,182,42);
- } 
- .contentHolder p{
-    font-size: 16px;
+  }
+  .defaultFont{
     font-family: "Bariol_Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #999;
+  }
+  .colorGreen{
+    color:rgb(165,182,42);
+  }
+ 
+ .contentHolder p{
+    font-size: 16px;    
  }
  
   .footer {
