@@ -116,7 +116,8 @@
   margin-top:10px;
  }
  .bigMessage {
-    padding: 22%;		 
+    padding-top: 22%;
+    padding-bottom: 22%;		 
     text-align:center;
  }
  .bigMessage  >h1{
