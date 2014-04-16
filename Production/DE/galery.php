@@ -88,7 +88,7 @@
           .item{
           	padding: 5px;
           }
-          #owl-demo .owl-item img{
+          /*#owl-demo .owl-item img{
 			  display: block;
 			  width: 100%;
 			  height: auto;
@@ -101,6 +101,15 @@
 				margin right: auto;
 				margin-left: auto;
 
+			}*/
+			#owl-demo .item img{
+			    display: block;
+			    width: 100%;
+			    height: auto;
+			}
+			.container1 {				
+				margin-right: auto;
+				margin-left: auto;
 			}
       </style>
    </head>
@@ -110,9 +119,9 @@
 
      <!--CONTENT -->
      <div class="containter">
-     <div class="row headerstuff">
-        <div class="col-sm-12">        
-  			  <div id="owl-demo" class="owl-carousel owl-theme" >
+     <!-- <div class="row headerstuff">
+        <div class="col-sm-12">         -->
+  			 <!--  <div id="owl-demo" class="owl-carousel owl-theme" >
   	         <div class="item">
                   <img src="../images/img1.jpg" alt="The Last of us">
              </div>              
@@ -124,7 +133,29 @@
              </div>              
              <div class="item">
                   <img src="../images/cloud.jpg" alt="The Last of us">
-             </div>        
+             </div>         -->
+            
+		        <div class="container1">
+		          <div class="row">
+		            <div class="span12">
+		              <div id="owl-demo" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
+		                     <div class="item">
+		                  		<img src="../images/img1.jpg" alt="The Last of us">
+				             </div>              
+				             <div class="item">
+				                  <img src="../images/img3.jpg" alt="The Last of us">
+				             </div> 
+				             <div class="item">
+				                  <img src="../images/img4.jpg" alt="The Last of us">
+				             </div>              
+				             <div class="item">
+				                  <img src="../images/cloud.jpg" alt="The Last of us">
+				             </div>      
+		              
+		            </div>
+		          </div>
+		         </div>
+           </div>
           </div>
        </div>
     </div>
