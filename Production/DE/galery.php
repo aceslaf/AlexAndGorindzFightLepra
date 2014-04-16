@@ -89,20 +89,20 @@
           	padding: 5px;
           }
           #owl-demo .owl-item img{
-			  display: block;
-			  width: 100%;
+			  display: block;			  
 			  height: auto;
 			  -webkit-border-radius: 3px;
 			  -moz-border-radius: 3px;
 			  border-radius: 3px;
+			   margin 0 auto;
+                 max-width: 920px;
 			}
-			#owl-demo{
-				max-width: 920px;
-				margin right: auto;
-				margin-left: auto;
-
-			}
+		    /*.galery{
+                
+		    }*/
+				
       </style>
+		    }
    </head>
    <body>
    <?php require_once('navbar.php'); ?>
@@ -111,8 +111,8 @@
      <!--CONTENT -->
      <div class="containter">
      <div class="row headerstuff">
-        <div class="col-sm-12">        
-  			  <div id="owl-demo" class="owl-carousel owl-theme" >
+        
+  		<div id="owl-demo" class="owl-carousel owl-theme" >
   	         <div class="item">
                   <img src="../images/img1.jpg" alt="The Last of us">
              </div>              
@@ -126,7 +126,7 @@
                   <img src="../images/cloud.jpg" alt="The Last of us">
              </div>        
           </div>
-       </div>
+           
     </div>
     </div>
      <!-- FOOOTER-->
