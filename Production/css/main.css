@@ -138,6 +138,10 @@
   .footer {
      padding-bottom: 5px;		  
   } 
+  .footer .container{
+    width:100% !important;
+    max-width: none;
+  }
  #accordion >h3{
  border: none !important; 
    border-radius: 0 !important;

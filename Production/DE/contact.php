@@ -1,3 +1,27 @@
+<?php
+  if(isset($_POST['kontakt'])){
+
+  $to  = "jovanovski@gorjan.info";
+  $subject = $_POST['predmet'];
+
+  // message 
+
+  $message = $_POST['opis'];
+
+  // To send HTML mail, the Content-type header must be set
+  $headers  = 'MIME-Version: 1.0' . "\r\n";
+  $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+
+  // Additional headers
+  $headers .= 'To: jovanovski@gorjan.info \r\n';
+  $headers .= 'From: ' . $_POST['kontakt'] . "\r\n";
+
+  // Mail it
+
+  mail($to, $subject, $message, $headers);
+
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -20,7 +44,32 @@
       <!--end bootstrap-->
       <link href="../css/reset.css" rel="stylesheet">
       <link href="../css/main.css" rel="stylesheet">
+      <style>
+        .col-sm-6{
+          margin-top:20px;
+        }
+        label{
+          margin-top:10px;
+          width:100%;
+        }
+        input, textarea{
+          height: 30px;
+          width:100%;
+          padding:0 5px;
+        }
+        textarea{
+          height:85px;
+          padding:5px;
+        }
 
+        button{
+          width: 100px;
+          height:30px;
+          float:right;
+          margin-top:10px;
+        }
+
+      </style>
       <script type="text/javascript">
          $(document).ready(function(){
 			fixPicture();
@@ -41,27 +90,56 @@
 	         }
          }
       </script>
+      <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+      <script>
+      function initialize() {
+        var myLatlng = new google.maps.LatLng(41.995841,21.423395);
+        var mapOptions = {
+          zoom: 17,
+          center: myLatlng,
+          disableDefaultUI: true,
+          draggable: false
+
+        }
+        var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+        var marker = new google.maps.Marker({
+            position: myLatlng,
+            map: map  });
+      }
+
+      google.maps.event.addDomListener(window, 'load', initialize);
+
+      </script>
    </head>
    <body>
    <?php require_once('navbar.php'); ?>
 
 
      <!--CONTENT -->
-     <div class="containter">
+     <div class="containter" style="width:90%;margin:0 auto 20px auto;">
      <div class="row headerstuff">
       
         <div class="headerpic col-sm-6  ">
-          <img src="http://alldaycreative.co.uk/wp-content/themes/allday/images/new-slide-one.jpg"/>
+          <div id="map-canvas" style="width:100%;height:340px;"></div>
         </div>
         <div class="headerpic col-sm-6">
-            <div class="contentHolder bigMessage" >
-				 <h1 >
-					Normal ist überbewertet
-				 </h1>
-				 <p >
-				  Wir sind etwas besonderes!
-				 </p>
-            </div>
+          <center><strong style="font-size:18px;margin-bottom:10px;display:block;">ДРУШТВО ЗА ПРОМЕТ И УСЛУГИ ЛЕТРА ПРЕВОДИ ДООЕЛ СКОПЈЕ</strong>
+          Локација: ул. Коста Шахов 14a, 1000 Скопје - Центар</center><br/>
+          <div class="row">
+          <div style="width:50%;float:left;padding-left:15px;">
+           <strong>Телефон:</strong><br/>+389(2)3 214-572
+          </div>
+          <div style="width:50%;float:right;text-align:right;">
+            <strong>Е-пошта:</strong><br/><a href="mailto:info@letraprevodi.mk">info@letraprevodi.mk</a>
+          </div>
+          </div>
+          <form method="POST" style="margin-top:10px;">
+            <label><input required placeholder="Предмет" type="text" name="predmet"/></label><br/>
+            <label><input required placeholder="Ваш контакт" type="email" name="kontakt"/></label><br/>
+            <label>Опис:<br/><textarea name="opis" required></textarea></label><br/>
+            <button type="submit">Испрати</button>
+          </form>
         </div> 
        
       </div>

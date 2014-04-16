@@ -59,7 +59,7 @@
               <li><a href="galery.php" style="background-image:none">Galery</a></li>
            </ul>
            <ul class="nav navbar-nav navbar-right bigmenu" style="margin-right:-5px">
-              <li><a href="#" style="background-color: rgb(165,182,42) !important; background-image:none;">Contact</a></li>
+              <li><a href="contact.php" style="background-color: rgb(165,182,42) !important; background-image:none;">Contact</a></li>
            </ul>
         </div>
      </div>
