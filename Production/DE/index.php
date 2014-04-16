@@ -30,6 +30,7 @@
       <script type="text/javascript">
          $(document).ready(function(){
 			fixPicture();
+			makeCarousel();
          });
          
          $(window).resize(function(){
@@ -52,6 +53,7 @@
                $(".headerpic>img").attr("width",Math.floor(nWidth*0.55));	
               return;	
             }
+          };    
 
 
            //   var textHeight=$('.contentHolder').height(); 
@@ -63,8 +65,21 @@
            //         $(".headerpic>img").attr("width",neededPicWidth); 
            //         $(".headerpic").attr("padding-top",Math.floor(paddT/2)+"px");
            //     }   
-           
-        }               
+            function makeCarousel(){
+        	$("#owl-demo").owlCarousel({ 
+		      navigation : false, // Show next and prev buttons
+		      slideSpeed : 300,
+		      paginationSpeed : 400,
+		      singleItem:true
+		 
+		      // "singleItem:true" is a shortcut for:
+		      // items : 1, 
+		      // itemsDesktop : false,
+		      // itemsDesktopSmall : false,
+		      // itemsTablet: false,
+		      // itemsMobile : false
+		 
+		  });};               
       </script>
    </head>
    <body>
@@ -80,12 +95,35 @@
         </div>
         <div class="col-sm-6">
             <div class="contentHolder bigMessage" >
-				 <h1 >
-					Normal ist überbewertet
-				 </h1>
-				 <p >
-				  Wir sind etwas besonderes!
-				 </p>
+			 <div id="owl-demo" class="owl-carousel owl-theme" >
+	               <div class="item">
+	              
+					 <h1 >
+						Normal ist überbewertet
+					 </h1>
+					 <p >
+					  Wir sind etwas besonderes!
+					 </p>
+				   </div>	 
+				   <div class="item">
+	              
+					 <h1 >
+						Mendela hat gessagt
+					 </h1>
+					 <p >
+					  Wir sind etwas besonderes!
+					 </p>
+				   </div>	 
+				   <div class="item">
+	              
+					 <h1 >
+						Dritte slaJd
+					 </h1>
+					 <p >
+					  Wir sind etwas besonderes!
+					 </p>
+				   </div>	 
+
             </div>
         </div> 
        

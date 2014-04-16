@@ -126,11 +126,11 @@
  .contentHolder{
      font-family: "Bariol_Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
  }
- .contentHolder >h1, .contentHolder >h2, .contentHolder >h3{ 	  
+ .contentHolder h1, .contentHolder h2, .contentHolder h3{ 	  
     font-family: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color:rgb(165,182,42);
  } 
- .contentHolder >p{
+ .contentHolder p{
     font-family: "Bariol_Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #999;
  }
