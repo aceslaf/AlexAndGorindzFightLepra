@@ -36,17 +36,28 @@
            if(nWidth<768){
              $(".headerpic>img").attr("width",nWidth);
              return;
-           }else{
-             var textHeight=$('.contentHolder').height(); 
-             var paddT = $('.contentHolder').outerHeight() - textHeight;
-             var neededPicWidth=widthVrzHeight*textHeight;
-               if(neededPicWidth<(nWidth/2)){
-                  $(".headerpic>img").attr("width",Math.floor(nWidth/2)); 
-               }else{
-                   $(".headerpic>img").attr("width",neededPicWidth); 
-                   $(".headerpic").attr("padding-top",Math.floor(paddT/2)+"px");
-               }   
            }
+            if(nWidth<1400){
+              $(".headerpic>img").attr("width",825);	
+              return;
+            }
+
+            if(nWidth>=1400){
+               $(".headerpic>img").attr("width",Math.floor(nWidth*0.55));	
+              return;	
+            }
+
+
+           //   var textHeight=$('.contentHolder').height(); 
+           //   var paddT = $('.contentHolder').outerHeight() - textHeight;
+           //   var neededPicWidth=widthVrzHeight*textHeight;
+           //     if(neededPicWidth<(nWidth/2)){
+           //        $(".headerpic>img").attr("width",Math.floor(nWidth/2)); 
+           //     }else{
+           //         $(".headerpic>img").attr("width",neededPicWidth); 
+           //         $(".headerpic").attr("padding-top",Math.floor(paddT/2)+"px");
+           //     }   
+           
         }               
       </script>
    </head>
