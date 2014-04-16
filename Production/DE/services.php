@@ -62,13 +62,20 @@
 
      <!--CONTENT -->
      <div class="containter">
-     <style type="text/css">
+     <style type="text/css">        
+        .acrd>h1, .acrd>div{
+           font-family: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+        }
+        .acrd p{
+          font-family: "Bariol_Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+          color: #999;
+        }
         .containter .row{
           width: 90%;
           margin: 50px auto 0 auto;
         }
         .uslugiimg{
-          margin: 0 auto -20px auto;
+          margin: 0 auto 10px auto;
           width: 80%;
           height: 66px;
           max-width: 547px;
@@ -95,51 +102,67 @@
      </style>
      <div class="row">
         <div class="uslugiimg"><img src="../images/uslugi.png"/></div>
-        <div class="col-sm-4  ">
-           <div class="uslugatitle">USLUGI1</div>    
+        <div class="col-sm-6  ">
+           <div class="uslugatitle">Pismen prevod</div>    
            <div class="acrd">
-                  <h3 style="border: none; border-radius: 0;">Section 1</h3>
+                  <h3 style="border: none; border-radius: 0;">Beglaubigte Übersetzung</h3>
                   <div>
                     <p>
-                  cipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate</p>
+                    Sollten Sie eine von einem staatlich geprüften Übersetzer beglaubigte Übersetzung brauchen, die Rechtsgültigkeit hat, dann sind Sie bei uns an der richtigen Adresse. 
+                    Wir sind  für beglaubigte Übersetzungen in zahlreichen Sprachen zugelassen, vor allem in Deutsch, Englisch, Spanisch und Mazedonisch.
+                    Wenn Sie einen solchen Service in anderen Sprachen benötigen, verfügen wir über ein breites Netzwerk an staatlich geprüften Übersetzern in allen Sprachen und Branchen.
+                    </p>
                   </div>
-                  <h3>Section 2</h3>
+
+                  <h3>Eilaufträge</h3>
                   <div>
-                    <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+                    <p>Da LETRA auch Schnelligkeit bedeutet, sind Sie an der richtigen Stelle für Übersetzungen in kürzester Zeit. 
+                       Wir übersetzen Ihre amtlichen Dokumente vor Ihren Augen und Sie können Sie sofort mitnehmen. 
+                       Einzelne Dokumente in Länge von 100 bis 200 Wörtern können von unseren Mitarbeitern in ca. 30 bis 60 Minuten fertiggestellt werden. 
+                    </p>
                   </div>
-                  <h3>Section 3</h3>
+
+                  <h3>Lokalisierung von Internetseiten </h3>
                   <div>
-                    <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>                    
+                    <p>
+                       Heutzutage ist es für Unternehmen wichtig sich überall auf der Welt vorstellen zu können, natürlich über das Internet und im Idealfall in der Sprache des Landes, 
+                       in dem man sich präsentieren möchte. So ist es von äußerster Wichtigkeit eine Internetseite lokaliesieren lassen zu können. 
+                   </p>                    
                   </div>
-                  <h3>Section 4</h3>
-                  <div>
-                    <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
-                  </div>
+                  
           </div>
         </div>
-        <div class="col-sm-4">
-          <div class="uslugatitle">USLUGI2</div>    
+        <div class="col-sm-6">
+          <div class="uslugatitle">Interpretirawe</div>    
           <div class="acrd">
-                  <h3 style="border: none; border-radius: 0;">Section 1</h3>
+                  <h3 style="border: none; border-radius: 0;">Dolmetschen</h3>
                   <div>
                     <p>
-                  cipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate</p>
+                       Langjährige Erfahrung und Kenntnisse zeichnen LETRA auch im bereich des Dolmetschen aus. Wenn wir dolmetschen, können die anderen nur gucken.
+                        Lehnen Sie sich zurück und stören Sie sich nicht damit, eine fremde Sprache verstehen zu müssen. Das machen wir für Sie.
+                       onferenzen, Sitzungen, Versammlungen, Tagungen und sonstige Veranstalltungen - wir sind immer dort, wo Sie uns brauchen und geben 130%. Unsere Kompetenzen stehen Ihnen stehts zu Diensten. 
+                       Wir dolmetschen aus dem Deutschen, Englischen und Spanischen ins Mazedonische, sowie umgekehrt.   
+                   </p>
                   </div>
-                  <h3>Section 2</h3>
+                  <h3>Simultandolmetschen</h3>
                   <div>
-                    <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+                    <p>
+                        Beim Simultandolmetschen findet die Verdolmetschung zeitgleich mit dem Redner   statt.
+                        Als Dolmetscher arbeiten wir zu zweit oder sogar zu dritt in einer   Dolmetscherkabine für jede gedolmetschte Sprache und wir wechseln uns   regelmäßig ab.
+                        Diese Art des Dolmetschens ist die gebräuchlichste und wird  insbesondere bei Mehrsprachigen Konferenzen, Kongressen, Pressekonferenzen  und Fernsehsendungen verwendet.
+                    </p>
                   </div>
-                  <h3>Section 3</h3>
+                  <h3>Konsekutivdolmetschen</h3>
                   <div>
-                    <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>                    
+                    <p>
+                      Hier trägt der Redner größere inhaltlich zusammenhängende Passagen seiner   Ansprache ohne Unterbrechung vor und wir verdolmetschung unmittelbar im   Anschluss. 
+                      Konsekutivdolmetschen erfordert einen geringen technischen Aufwand, ein   Mikrofon ist reicht vollkommen aus und ist daher äußerst praktisch. 
+                    </p>                    
                   </div>
-                  <h3>Section 4</h3>
-                  <div>
-                    <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
-                  </div>
+                  
           </div>  
         </div> 
-        <div class="col-sm-4">
+      <!--   <div class="col-sm-4">
           <div class="uslugatitle">USLUGI3</div>    
           <div class="acrd">
                   <h3 style="border: none; border-radius: 0;">Section 1</h3>
@@ -160,7 +183,7 @@
                     <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
                   </div>
           </div>
-        </div>
+        </div> -->
        </div> 
       </div>
      </div>
@@ -179,7 +202,7 @@
 
      <!-- FOOOTER-->
         <!-- FOOOTER-->
-   <div class="footer bggreen ">   
+   <div class="footer /* bggreen*/ ">   
        <div class="container">
          <p>@Letra 2014</p>
        </div>
