@@ -31,15 +31,17 @@
          });
 
          function fixPicture(){
-         	
+         	 var nWidth=$(window).width();   
 	         if(nWidth<768){
 	           $(".headerpic>img").attr("width",nWidth);
              return;
 	         }
-           if(nWidth<1400){	         
-             $(".headerpic>img").attr("width",Math.floor(nWidth*0.65)); 
-	         }else{
-             $(".headerpic>img").attr("width",1045); 
+           if((nWidth>=768)&&(nWidth<1400)){	                       
+              var paddT = $('.contentHolder').outerHeight() - $('.contentHolder').height();              
+             $(".headerpic>img").attr("width",825); 
+             $(".headerpic").attr("padding-top",Math.floor(paddT/2)+"px");
+	         }else{//nwidth>=1400
+             $(".headerpic>img").attr("width",Math.floor(nWidth/2)); 
            }
          }
       </script>
