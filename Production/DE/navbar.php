@@ -74,7 +74,7 @@
                  <span class="icon-bar"></span>
                  <span class="icon-bar"></span>
                  </button>
-                 <a class="navbar-brand  asdbackground" href="#">Letra</a>
+                 <a class="navbar-brand  asdbackground" href="index.php">Letra</a>
                  <!-- <img src="../images/logo.png" width="35" height="35" /> -->
               </div>
               <!-- Collect the nav links, forms, and other content for toggling -->
