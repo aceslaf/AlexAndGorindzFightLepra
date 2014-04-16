@@ -97,6 +97,7 @@
           font-size: 18px;
           font-weight: bold;
           margin-bottom: 10px;
+          text-align: center
         }
 
      </style>
@@ -202,7 +203,7 @@
 
      <!-- FOOOTER-->
         <!-- FOOOTER-->
-   <div class="footer /* bggreen*/ ">   
+   <div class="footer  /*bggreen*/ " style="border-top: none;">   
        <div class="container">
          <p>@Letra 2014</p>
        </div>
