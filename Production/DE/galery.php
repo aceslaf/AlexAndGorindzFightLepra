@@ -67,14 +67,13 @@
            //     }   
             function makeCarousel(){
         	$("#owl-demo").owlCarousel({ 
-		        autoPlay : 3000,
-            stopOnHover : true,
-            navigation:true,
-            paginationSpeed : 1000,
-            goToFirstSpeed : 2000,
-            singleItem : true,
-            autoHeight : true,
-            transitionStyle:"fade"
+		       autoPlay : 3000,
+			    stopOnHover : true,
+			    navigation:true,
+			    paginationSpeed : 1000,
+			    goToFirstSpeed : 2000,
+			    singleItem : true,
+			    autoHeight : true			    
 		 
 		      // "singleItem:true" is a shortcut for:
 		      // items : 1, 
@@ -87,13 +86,22 @@
       </script>
       <style type="text/css">
           .item{
-          	padding: 5%;
+          	padding: 5px;
           }
-          #owl-demo .item img{
-              display: block;
-              width: 100%;
-              height: auto;
-          }
+          #owl-demo .owl-item img{
+			  display: block;
+			  width: 100%;
+			  height: auto;
+			  -webkit-border-radius: 3px;
+			  -moz-border-radius: 3px;
+			  border-radius: 3px;
+			}
+			#owl-demo{
+				max-width: 920px;
+				margin right: auto;
+				margin-left: auto;
+
+			}
       </style>
    </head>
    <body>
