@@ -31,18 +31,25 @@
          });
 
          function fixPicture(){
-         	
-            var nWidth=$(window).width();   
-	         if(nWidth<768){
-	           $(".headerpic>img").attr("width",nWidth);
+          var widthVrzHeight=2.13178294574; 
+           var nWidth=$(window).width();   
+           if(nWidth<768){
+             $(".headerpic>img").attr("width",nWidth);
              return;
-	         }
-	         if((nWidth>=768)&&(nWidth<=1180)){
-	           $(".headerpic>img").attr("width",640); 
            }else{
-             $(".headerpic>img").attr("width",Math.floor(nWidth*0.55)); 
+             var textHeight=$('.contentHolder').height(); 
+             var paddT = $('.contentHolder').outerHeight() - textHeight;
+             var neededPicWidth=widthVrzHeight*textHeight;
+               if(neededPicWidth<(nWidth/2)){
+                  $(".headerpic>img").attr("width",Math.floor(nWidth/2)); 
+               }else{
+                   $(".headerpic>img").attr("width",neededPicWidth); 
+                   $(".headerpic").attr("padding-top",Math.floor(paddT/2)+"px");
+               }   
            }
-	         
+                                    
+            
+           
          }
       </script>
    </head>
