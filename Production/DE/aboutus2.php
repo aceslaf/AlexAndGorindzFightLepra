@@ -51,7 +51,7 @@
             
            
          }
-      </script>
+      </script>    
    </head>
    <body>
    <?php require_once('navbar.php'); ?>
