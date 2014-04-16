@@ -67,11 +67,13 @@
            //     }   
             function makeCarousel(){
         	$("#owl-demo").owlCarousel({ 
-		      navigation : false, // Show next and prev buttons
-		      slideSpeed : 300,
-		      paginationSpeed : 400,
-		      singleItem:true,
-		      autoPlay:true
+		       autoPlay : 3000,
+			    stopOnHover : true,
+			    navigation:true,
+			    paginationSpeed : 1000,
+			    goToFirstSpeed : 2000,
+			    singleItem : true,
+			    autoHeight : true			    
 		 
 		      // "singleItem:true" is a shortcut for:
 		      // items : 1, 
@@ -84,8 +86,22 @@
       </script>
       <style type="text/css">
           .item{
-          	padding-right: 5%;
+          	padding: 5px;
           }
+          #owl-demo .owl-item img{
+			  display: block;
+			  width: 100%;
+			  height: auto;
+			  -webkit-border-radius: 3px;
+			  -moz-border-radius: 3px;
+			  border-radius: 3px;
+			}
+			#owl-demo{
+				max-width: 920px;
+				margin right: auto;
+				margin-left: auto;
+
+			}
       </style>
    </head>
    <body>
@@ -95,49 +111,24 @@
      <!--CONTENT -->
      <div class="containter">
      <div class="row headerstuff">
-      
-        <div class="headerpic col-sm-6  ">
-          <img src="http://alldaycreative.co.uk/wp-content/themes/allday/images/new-slide-one.jpg"/>
-        </div>
-        <div class="col-sm-6 .defaultFont">
-            <div class="contentHolder bigMessage" >
-			 <div id="owl-demo" class="owl-carousel owl-theme" >
-	               <div class="item">
-	              
-					 <h1 class="fancyTitleFont colorGreen" >
-						Normal ist überbewertet
-					 </h1>
-					 <p class="defaultFont">
-					  Wir sind etwas besonderes!
-					 </p>
-				   </div>	 
-				   <div class="item">
-	                  
-	                  <p class="defaultFont">
-					  „Wenn Du mit einem Menschen eine Sprache sprichst die er versteht, erreichst Du seinen Kopf (Verstand). Wenn Du mit ihm in seiner Sprache sprichst, erreichst Du sein Herz.‟ 
-					 </p>
-					 <h1 class="fancyTitleFont colorGreen">
-						-Nelson Mandela
-					 </h1>
-					 
-				   </div>	 
-				   <div class="item">
-	              
-					 <h1 class="fancyTitleFont colorGreen">
-						Pure awesomeness
-					 </h1>
-					 <p class="defaultFont">
-					 in 12 diferent languages
-					 </p>
-
-				   </div>	 
-
-            </div>
-        </div> 
-       
-      </div>
-     </div>
-
+        <div class="col-sm-12">        
+  			  <div id="owl-demo" class="owl-carousel owl-theme" >
+  	         <div class="item">
+                  <img src="../images/img1.jpg" alt="The Last of us">
+             </div>              
+             <div class="item">
+                  <img src="../images/img3.jpg" alt="The Last of us">
+             </div> 
+             <div class="item">
+                  <img src="../images/img4.jpg" alt="The Last of us">
+             </div>              
+             <div class="item">
+                  <img src="../images/cloud.jpg" alt="The Last of us">
+             </div>        
+          </div>
+       </div>
+    </div>
+    </div>
      <!-- FOOOTER-->
 	 <div class="footer /*bggreen */">	 
 			 <div class="container">
