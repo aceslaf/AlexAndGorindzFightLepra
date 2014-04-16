@@ -53,7 +53,7 @@
         <div class="headerpic col-sm-6  ">
           <img src="http://alldaycreative.co.uk/wp-content/themes/allday/images/new-slide-one.jpg"/>
         </div>
-        <div class="headerpic col-sm-6">
+        <div class="col-sm-6">
             <div class="contentHolder bigMessage" >
 				 <h1 >
 					Normal ist überbewertet

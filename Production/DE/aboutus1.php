@@ -32,7 +32,6 @@
 
          function fixPicture(){
          	
-             var nWidth=$(window).width();   
 	         if(nWidth<768){
 	           $(".headerpic>img").attr("width",nWidth);
              return;
@@ -67,7 +66,7 @@
         <div class="headerpic col-sm-6  ">
           <img src="http://alldaycreative.co.uk/wp-content/themes/allday/images/new-slide-one.jpg"/>
         </div>
-        <div class="headerpic col-sm-6">
+        <div class="col-sm-6">
             <div class="contentHolder" >
 				 
                 
