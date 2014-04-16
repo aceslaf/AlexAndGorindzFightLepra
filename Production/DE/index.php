@@ -20,6 +20,12 @@
       <!--end bootstrap-->
       <link href="../css/reset.css" rel="stylesheet">
       <link href="../css/main.css" rel="stylesheet">
+      
+      <!-- OWL CAROUSEL-->
+      <link rel="stylesheet" href="../owl-carousel/owl.carousel.css"> 
+	  <link rel="stylesheet" href="../owl-carousel/owl.theme.css">
+	  <script src="../owl-carousel/owl.carousel.js"></script>
+
 
       <script type="text/javascript">
          $(document).ready(function(){
