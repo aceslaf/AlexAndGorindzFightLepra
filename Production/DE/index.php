@@ -70,7 +70,8 @@
 		      navigation : false, // Show next and prev buttons
 		      slideSpeed : 300,
 		      paginationSpeed : 400,
-		      singleItem:true
+		      singleItem:true,
+		      autoPlay:true
 		 
 		      // "singleItem:true" is a shortcut for:
 		      // items : 1, 
@@ -81,6 +82,11 @@
 		 
 		  });};               
       </script>
+      <style type="text/css">
+          .item{
+          	padding-right: 5%;
+          }
+      </style>
    </head>
    <body>
    <?php require_once('navbar.php'); ?>
@@ -106,22 +112,24 @@
 					 </p>
 				   </div>	 
 				   <div class="item">
-	              
-					 <h1 >
-						Mendela hat gessagt
-					 </h1>
-					 <p >
-					  Wir sind etwas besonderes!
+	                  
+	                  <p >
+					  „Wenn Du mit einem Menschen eine Sprache sprichst die er versteht, erreichst Du seinen Kopf (Verstand). Wenn Du mit ihm in seiner Sprache sprichst, erreichst Du sein Herz.‟ 
 					 </p>
+					 <h1 >
+						-Nelson Mandela
+					 </h1>
+					 
 				   </div>	 
 				   <div class="item">
 	              
 					 <h1 >
-						Dritte slaJd
+						Pure awesomeness
 					 </h1>
 					 <p >
-					  Wir sind etwas besonderes!
+					 in 12 diferent languages
 					 </p>
+
 				   </div>	 
 
             </div>
