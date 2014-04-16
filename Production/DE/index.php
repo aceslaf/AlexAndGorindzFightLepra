@@ -28,6 +28,9 @@
 
 
       <script type="text/javascript">
+
+
+
          $(document).ready(function(){
 			fixPicture();
          });
@@ -64,7 +67,26 @@
            //         $(".headerpic").attr("padding-top",Math.floor(paddT/2)+"px");
            //     }   
            
-        }               
+        } 
+
+
+
+        var makeCarousel=function(){
+        	$("#owl-demo").owlCarousel({ 
+		      navigation : true, // Show next and prev buttons
+		      slideSpeed : 300,
+		      paginationSpeed : 400,
+		      singleItem:true
+		 
+		      // "singleItem:true" is a shortcut for:
+		      // items : 1, 
+		      // itemsDesktop : false,
+		      // itemsDesktopSmall : false,
+		      // itemsTablet: false,
+		      // itemsMobile : false
+		 
+		  });
+     };              
       </script>
    </head>
    <body>
@@ -79,13 +101,34 @@
           <img src="http://alldaycreative.co.uk/wp-content/themes/allday/images/new-slide-one.jpg"/>
         </div>
         <div class="col-sm-6">
-            <div class="contentHolder bigMessage" >
+            <div id="owl-demo" class="owl-carousel owl-theme" >
+               <div class="item">
+              
 				 <h1 >
 					Normal ist überbewertet
 				 </h1>
 				 <p >
 				  Wir sind etwas besonderes!
 				 </p>
+			   </div>	 
+			   <div class="item">
+              
+				 <h1 >
+					Mendela hat gessagt
+				 </h1>
+				 <p >
+				  Wir sind etwas besonderes!
+				 </p>
+			   </div>	 
+			   <div class="item">
+              
+				 <h1 >
+					Dritte slaJd
+				 </h1>
+				 <p >
+				  Wir sind etwas besonderes!
+				 </p>
+			   </div>	 
             </div>
         </div> 
        
