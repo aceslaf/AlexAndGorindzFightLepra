@@ -46,7 +46,7 @@
         <img src="../images/logo1.png" class="logoimg"/>
         <div class="navbar-collapse collapse">
            <ul class="nav navbar-nav bigmenu">
-              <li class="active"><a href="home.php">Home</a></li>
+              <li class="active"><a href="index.php">Home</a></li>
               <li class="dropdown">
                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">About ussr <b class="caret"></b></a>
                  <ul class="dropdown-menu">
