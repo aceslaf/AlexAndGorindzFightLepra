@@ -14,6 +14,7 @@ TODO:
    -da se napravi prostor pomegju "telefon:" i brojkata (moze da se zgolemi prored)
    -da se bapne pull-left na isprati kopcheto 
    -da se dodade "Se obvrzuvame na diskrecija   za sekoj praten mejl" desno od kopcheto
+   -ako nema da se dodade proverka dali e popunet sender koga se rpakja
 
 5. LOC: services:
    - da nema slika, ili dokolku ima da ne e so kocki naveduva na klikanje
