@@ -58,8 +58,8 @@
 		                active:false,
 		                icons:false,
 		                heightStyle: "content",
-                       autoHeight: false,
-        clearStyle: true, 
+                        autoHeight: false,
+                        clearStyle: true, 
 	                }	                
                 }else{// LARGE SCREEN
                 	settings={};
@@ -149,7 +149,7 @@
                     Wenn Sie einen solchen Service in anderen Sprachen benötigen, verfügen wir über ein breites Netzwerk an staatlich geprüften Übersetzern in allen Sprachen und Branchen.
                     <br/>
                     <br/>
-                    
+
                     </p>
                   </div>
 
