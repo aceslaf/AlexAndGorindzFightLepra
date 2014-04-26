@@ -29,31 +29,31 @@
 
       <script type="text/javascript">
          $(document).ready(function(){
-			fixPicture();
+			//fixPicture();
 			makeCarousel();
          });
          
-         $(window).resize(function(){
-			fixPicture();
-         });
+         // $(window).resize(function(){
+			// fixPicture();
+         // });
 
-        function fixPicture(){
-           var widthVrzHeight=2.13178294574; 
-           var nWidth=$(window).width();   
-           if(nWidth<768){
-             $(".headerpic>img").attr("width",nWidth);
-             return;
-           }
-            if(nWidth<1400){
-              $(".headerpic>img").attr("width",825);	
-              return;
-            }
+        // function fixPicture(){
+        //    var widthVrzHeight=2.13178294574; 
+        //    var nWidth=$(window).width();   
+        //    if(nWidth<768){
+        //      $(".headerpic>img").attr("width",nWidth);
+        //      return;
+        //    }
+        //     if(nWidth<1400){
+        //       $(".headerpic>img").attr("width",825);	
+        //       return;
+        //     }
 
-            if(nWidth>=1400){
-               $(".headerpic>img").attr("width",Math.floor(nWidth*0.55));	
-              return;	
-            }
-          };    
+        //     if(nWidth>=1400){
+        //        $(".headerpic>img").attr("width",Math.floor(nWidth*0.55));	
+        //       return;	
+        //     }
+        //   };    
 
 
            //   var textHeight=$('.contentHolder').height(); 
