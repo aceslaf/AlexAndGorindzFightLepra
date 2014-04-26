@@ -38,14 +38,49 @@
          }
         </style>
         <script>
-              $(function() {
-                $( ".acrd" ).accordion({
-                  collapsible: true,
-                active:false,
-                icons:false,
-                heightStyle: "content"
-                });
-              });
+               var mobileScreen=true;
+               var accordions=new Object();
+               $(document).ready(function(){
+				  var windowWidth=$(window).width(); 
+                  mobileScreen=(windowWidth<768);
+                  
+                  makeAccordion(mobileScreen);              	  
+              	});              
+               
+              
+
+
+              var makeAccordion=function(isMobile) {
+              	var settings;
+               	if(isMobile){// MOBILE SCREEN
+               		settings={
+		                collapsible: true,
+		                active:false,
+		                icons:false,
+		                heightStyle: "content",
+                       autoHeight: false,
+        clearStyle: true, 
+	                }	                
+                }else{// LARGE SCREEN
+                	settings={};
+                }
+
+                
+                accordions[0]=$( ".acrd0" ).accordion(settings);                 
+                accordions[1]=$( ".acrd1" ).accordion(settings);
+              };
+              var acordionClick=function(isMobile,acrNum){
+                         if(!isMobile){
+                             return;
+                         }
+                         //calculate other acordion
+                         var other= 1 - acrNum; 
+                         
+                         accordions[other].accordion("option","active",false);
+
+
+
+              };
         </script>
 
 
@@ -102,20 +137,23 @@
 
      </style>
      <div class="row">
-        <div class="uslugiimg"><img src="../images/uslugi.png"/></div>
+        <!-- <div class="uslugiimg"><img src="../images/uslugi.png"/></div> -->
         <div class="col-sm-6  ">
            <div class="uslugatitle">Pismen prevod</div>    
-           <div class="acrd">
-                  <h3 style="border: none; border-radius: 0;">Beglaubigte Übersetzung</h3>
+           <div class="acrd acrd0">
+                  <h3 style="border: none; border-radius: 0;" onclick="acordionClick(mobileScreen,0)">Beglaubigte Übersetzung</h3>
                   <div>
                     <p>
                     Sollten Sie eine von einem staatlich geprüften Übersetzer beglaubigte Übersetzung brauchen, die Rechtsgültigkeit hat, dann sind Sie bei uns an der richtigen Adresse. 
                     Wir sind  für beglaubigte Übersetzungen in zahlreichen Sprachen zugelassen, vor allem in Deutsch, Englisch, Spanisch und Mazedonisch.
                     Wenn Sie einen solchen Service in anderen Sprachen benötigen, verfügen wir über ein breites Netzwerk an staatlich geprüften Übersetzern in allen Sprachen und Branchen.
+                    <br/>
+                    <br/>
+                    
                     </p>
                   </div>
 
-                  <h3>Eilaufträge</h3>
+                  <h3 onclick="acordionClick(mobileScreen,0)" >Eilaufträge</h3>
                   <div>
                     <p>Da LETRA auch Schnelligkeit bedeutet, sind Sie an der richtigen Stelle für Übersetzungen in kürzester Zeit. 
                        Wir übersetzen Ihre amtlichen Dokumente vor Ihren Augen und Sie können Sie sofort mitnehmen. 
@@ -123,7 +161,7 @@
                     </p>
                   </div>
 
-                  <h3>Lokalisierung von Internetseiten </h3>
+                  <h3 onclick="acordionClick(mobileScreen,0)">Lokalisierung von Internetseiten </h3>
                   <div>
                     <p>
                        Heutzutage ist es für Unternehmen wichtig sich überall auf der Welt vorstellen zu können, natürlich über das Internet und im Idealfall in der Sprache des Landes, 
@@ -135,8 +173,8 @@
         </div>
         <div class="col-sm-6">
           <div class="uslugatitle">Interpretirawe</div>    
-          <div class="acrd">
-                  <h3 style="border: none; border-radius: 0;">Dolmetschen</h3>
+          <div class="acrd acrd1">
+                  <h3 style="border: none; border-radius: 0;" onclick="acordionClick(mobileScreen,1)">Dolmetschen</h3>
                   <div>
                     <p>
                        Langjährige Erfahrung und Kenntnisse zeichnen LETRA auch im bereich des Dolmetschen aus. Wenn wir dolmetschen, können die anderen nur gucken.
@@ -145,7 +183,7 @@
                        Wir dolmetschen aus dem Deutschen, Englischen und Spanischen ins Mazedonische, sowie umgekehrt.   
                    </p>
                   </div>
-                  <h3>Simultandolmetschen</h3>
+                  <h3 onclick="acordionClick(mobileScreen,1)">Simultandolmetschen</h3>
                   <div>
                     <p>
                         Beim Simultandolmetschen findet die Verdolmetschung zeitgleich mit dem Redner   statt.
@@ -153,7 +191,7 @@
                         Diese Art des Dolmetschens ist die gebräuchlichste und wird  insbesondere bei Mehrsprachigen Konferenzen, Kongressen, Pressekonferenzen  und Fernsehsendungen verwendet.
                     </p>
                   </div>
-                  <h3>Konsekutivdolmetschen</h3>
+                  <h3 onclick="acordionClick(mobileScreen,1)">Konsekutivdolmetschen</h3>
                   <div>
                     <p>
                       Hier trägt der Redner größere inhaltlich zusammenhängende Passagen seiner   Ansprache ohne Unterbrechung vor und wir verdolmetschung unmittelbar im   Anschluss. 

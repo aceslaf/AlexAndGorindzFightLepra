@@ -1,9 +1,9 @@
 TODO:
 
-1. LOC: aboutUs1,2 index 
+1. LOC: aboutUs1,2 index    
    -slikata i textot da imaat vertikalno centralno poramnuvanje 
    
-2. LOC: all
+2. LOC: all                  
    -da se napravi container na stranata shto kje ja drzi max with 920px. Da ne se shiri povekje od toa
    
 3. LOC: aboutus1,2 
@@ -16,7 +16,7 @@ TODO:
    -da se dodade "Se obvrzuvame na diskrecija   za sekoj praten mejl" desno od kopcheto
    -ako nema da se dodade proverka dali e popunet sender koga se rpakja
 
-5. LOC: services:
+5. LOC: services: DONE author: Ace
    - da nema slika, ili dokolku ima da ne e so kocki naveduva na klikanje
    -da se napravi da ima pod default otvoren edena uzluga i da se napravat i dvete da zafakjaat isto za golemi ekrani
    -da se ostavat kako shto se za mali ekrani 
