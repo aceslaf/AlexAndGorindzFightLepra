@@ -117,6 +117,8 @@
 
 
      <!--CONTENT -->
+     <div class="content">
+     <div style="max-width: 1150px; margin: 0 auto;">
      <div class="containter" style="width:90%;margin:0 auto 20px auto;">
      <div class="row headerstuff">
       
@@ -144,7 +146,8 @@
        
       </div>
      </div>
-
+     </div>
+     </div>
      <!-- FOOOTER-->
 	 <div class="footer /*bggreen */">	 
 			 <div class="container">

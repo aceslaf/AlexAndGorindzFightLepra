@@ -118,6 +118,8 @@
 
 
      <!--CONTENT -->
+     <div class="content">
+     <div style="max-width: 950px; margin: 0 auto;">
      <div class="containter">
      <!-- <div class="row headerstuff">
         <div class="col-sm-12">         -->
@@ -156,6 +158,8 @@
 		          </div>
 		         </div>
            </div>
+          </div>
+          </div>
           </div>
        </div>
     </div>

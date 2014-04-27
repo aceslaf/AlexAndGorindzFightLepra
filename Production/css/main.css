@@ -167,6 +167,11 @@
  .headerpic{
    overflow: hidden;
  }
+.maxWidth{
+     max-width: 950px !important;
+     margin: 0 auto;
+
+ }
 
   ul {
         list-style-type: square;

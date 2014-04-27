@@ -58,6 +58,8 @@
 
 
      <!--CONTENT -->
+     <div class="content">
+     <div style="max-width: 1150px; margin: 0 auto;">
      <div class="containter">
      <div class="row headerstuff">
       
@@ -85,6 +87,8 @@
         </div> 
        
       </div>
+     </div>
+     </div>
      </div>
 
      <!-- FOOOTER-->

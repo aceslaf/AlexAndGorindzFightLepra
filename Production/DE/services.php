@@ -136,6 +136,8 @@
         }
 
      </style>
+     <div class="content">
+     <div style="max-width: 1150px; margin: 0 auto;">
      <div class="row">
         <!-- <div class="uslugiimg"><img src="../images/uslugi.png"/></div> -->
         <div class="col-sm-6  ">
@@ -147,6 +149,7 @@
                     Sollten Sie eine von einem staatlich geprüften Übersetzer beglaubigte Übersetzung brauchen, die Rechtsgültigkeit hat, dann sind Sie bei uns an der richtigen Adresse. 
                     Wir sind  für beglaubigte Übersetzungen in zahlreichen Sprachen zugelassen, vor allem in Deutsch, Englisch, Spanisch und Mazedonisch.
                     Wenn Sie einen solchen Service in anderen Sprachen benötigen, verfügen wir über ein breites Netzwerk an staatlich geprüften Übersetzern in allen Sprachen und Branchen.
+                    <br/>
                     <br/>
                     <br/>
 
@@ -224,6 +227,8 @@
           </div>
         </div> -->
        </div> 
+       </div>
+      </div>
       </div>
      </div>
      
