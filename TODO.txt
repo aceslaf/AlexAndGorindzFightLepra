@@ -3,7 +3,7 @@ TODO:
 1. LOC: aboutUs1,2 index    
    -slikata i textot da imaat vertikalno centralno poramnuvanje 
    
-2. LOC: all                  
+2. LOC: all    DONE              
    -da se napravi container na stranata shto kje ja drzi max with 920px. Da ne se shiri povekje od toa
    
 3. LOC: aboutus1,2 - GORDZ
@@ -51,7 +51,8 @@ TODO:
 	 -imam devojka
 	 -Tijana me nejkje
 	 -ali sepak: http://vimeo.com/63277960
-	 
+11. LOC: all 
+    -Da se trgnat nepotrebni scripti i ostatoci od copy paste
 	 
 	 
 	 
