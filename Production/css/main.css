@@ -85,9 +85,8 @@
  }
 
  .logoimg{
-
   position: absolute;
-  top:-14px;
+  top:-44px;
   left: 0;
 
  }
@@ -182,3 +181,8 @@
   ul > li > span {
       color: black;
   }
+
+
+.prored{
+  line-height: 22px;
+}

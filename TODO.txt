@@ -6,11 +6,11 @@ TODO:
 2. LOC: all    DONE              
    -da se napravi container na stranata shto kje ja drzi max with 920px. Da ne se shiri povekje od toa
    
-3. LOC: aboutus1,2 - GORDZ
+3. LOC: aboutus1,2 - GORDZ DONE
    -da se zgolemi proredot
    -naslovite da se stavat centralno nameto levo pormantei
 
-4. LOC: contact - GORDZ
+4. LOC: contact - GORDZ DONE
    -da se napravi prostor pomegju "telefon:" i brojkata (moze da se zgolemi prored)
    -da se bapne pull-left na isprati kopcheto 
    -da se dodade "Se obvrzuvame na diskrecija   za sekoj praten mejl" desno od kopcheto
@@ -22,7 +22,7 @@ TODO:
    -da se ostavat kako shto se za mali ekrani 
    -za mali ekrani ako se stisne na uslugi2 da se zatvorat uslugi1
 
-6. LOC: navbar  - GORDZ
+6. LOC: navbar  - GORDZ DONE
    -nov raspored na kopchinja logoto levo celata navigacija desno poramneta, ostanat izgled: nepromenet
    -da napravime novo logo letra translations namesto летра преводи
    -da se zgolemi logoto (optional da vidime kako kje ni se svigja imam hq slika za ova)   
@@ -30,10 +30,10 @@ TODO:
 7. LOC: all
    -povekje font varijanti (mal prioritet moze da ostane na kraj) 
    
-8. LOC: aboutus3
+8. LOC: abortus3
    -da se napravi team stranica so mesto za povekje team memeberi od tipot slika, text   
 
-8. LOC: pinkPanter - GORDZ
+8. LOC: pinkPanter - GORDZ DONE
    -todo
    -todo
    -todotodotodo
@@ -43,17 +43,17 @@ TODO:
    -todododo   
    -pamPAM!
 
- 9. Irena Ljubik Kade: Na masa author GORDZ
+ 9. Irena Ljubik Kade: Na masa author GORDZ, IMA DECKO AMA NEMA PROBLEM
      -ramdagadam
      -https://www.youtube.com/watch?v=FLA1Su3sdIU
 10. Tijana Ljubik Kade: Vo gazot	 
      -imam devojka
 	 -imam devojka
-	 -Tijana me nejkje
+	 -Tijana me nejkje, ali treba da ja upoznaeme :D
 	 -ali sepak: http://vimeo.com/63277960
 11. LOC: all 
     -Da se trgnat nepotrebni scripti i ostatoci od copy paste
 	 
 	 
-	 
-	 
+12. LOC: aboutus2
+    - BUG, dodadi mn tekst i width na slikata ke zabega epten, neso so toa widthVrzHeight=2.13178294574 da ne se ebe?

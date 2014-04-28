@@ -23,14 +23,17 @@
 
       <script type="text/javascript">
          $(document).ready(function(){
-			fixPicture();
+			     fixPicture();
          });
          
          $(window).resize(function(){
-			fixPicture();
+			     fixPicture();
          });
 
          function fixPicture(){
+
+
+
          	 var nWidth=$(window).width();   
 	         if(nWidth<768){
 	           $(".headerpic>img").attr("width",nWidth);
@@ -43,6 +46,13 @@
 	         }else{//nwidth>=1400
              $(".headerpic>img").attr("width",Math.floor(nWidth/2)); 
            }
+
+          var contentHeight = $(".contentHolder").innerHeight();
+          var slikaHeigt = parseInt($(".headerpic>img").css("height"));
+          if(contentHeight>slikaHeigt){
+            $(".headerpic>img").css("margin-top",Math.floor((contentHeight-slikaHeigt)/2)+"px"); 
+          }
+
          }
       </script>
       <style type="text/css">
@@ -71,7 +81,7 @@
           <img src="http://alldaycreative.co.uk/wp-content/themes/allday/images/new-slide-one.jpg"/>
         </div>
         <div class="col-sm-6">
-            <div class="contentHolder" >
+            <div class="contentHolder prored" >
 				 
                 
               <h3>Sprachen:</h3>

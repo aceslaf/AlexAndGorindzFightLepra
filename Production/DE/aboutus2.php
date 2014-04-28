@@ -47,6 +47,12 @@
                    $(".headerpic").attr("padding-top",Math.floor(paddT/2)+"px");
                }   
            }
+
+           var contentHeight = $(".contentHolder").innerHeight();
+          var slikaHeigt = parseInt($(".headerpic>img").css("height"));
+          if(contentHeight>slikaHeigt){
+            $(".headerpic>img").css("margin-top",Math.floor((contentHeight-slikaHeigt)/2)+"px"); 
+          }
                                     
             
            
@@ -67,22 +73,23 @@
           <img src="http://alldaycreative.co.uk/wp-content/themes/allday/images/new-slide-one.jpg"/>
         </div>
         <div class=" col-sm-6">
-          <div class="contentHolder" >
-				    <h3> Qualität</h3>
+          <div class="contentHolder prored" >
+				    <center><h3> Qualität</h3></center>
             <p>
                 Die Hochwertigkeit, die LETRA Ihnen anbietet bekommen Sie nirgendwo sonst. Wir sind die besten in unserem Geschäft und das haben schon viele Klienten bezeugt. Suchen Sie nicht weiter, wenn sie eine professionelle, schnelle und hochwertige Übersetzung brauchen. Überzeugen Sie sich selbst von unseren Fachkenntnissen und Fertigkeiten.
            </p>
-
-            <h3>Schnelligkeit</h3>
+            <br/>
+            <center><h3>Schnelligkeit</h3></center>
             <p>
               Brauchen Sie eine schnelle Übersetzung? Hier sind Sie richtig. STOP gibt es für uns nicht, genauso wenig wie UNMÖGLICH. Wir machen alles MÖGLICH, so SCHNELL wie MÖGLICH. Und das alles ohne an Qualität einbüßen zu müssen, so gut sind wir. Schneller als bei uns geht es nicht, fragen Sie nicht weiter. Die Konkurenz lügt.
             </p>
 
-
-            <h3>Diskretion</h3>
+            <br/>
+            <center><h3>Diskretion</h3></center>
             <p>
               Vertraulich? Kein problem, vertrauen Sie uns. Alle unsere mitarbeiter sind an eine Geheimhaltungsvereinbarung gebunden. Wir achten auf den Schutz Ihrer Daten und versichern sorgfältigen Umgang mit Ihren Dokumenten. Was bei LETRA passiert, bleibt bei LETRA.
             </p>
+            <br/>
           </div>
         </div> 
        
