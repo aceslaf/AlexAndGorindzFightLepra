@@ -23,24 +23,20 @@
 
       <script type="text/javascript">
          $(document).ready(function(){
-			fixPicture();
+			//fixPicture();
          });
          
          $(window).resize(function(){
-			fixPicture();
+			//fixPicture();
          });
 
-         function fixPicture(){
-         	
-             var nWidth=$(window).width();   
-	         if(nWidth<768){
-	           $(".headerpic>img").attr("width",nWidth);
-	         }
-	         else{
-	           $(".headerpic>img").attr("width",Math.floor(nWidth*0.55)); 
-	         }
-         }
+        
       </script>
+      <style type="text/css">
+          .row{
+            margin-bottom: 100px;
+          }
+      </style>
    </head>
    <body>
    <?php require_once('navbar.php'); ?>
@@ -48,14 +44,14 @@
 
      <!--CONTENT -->
      <div class="content">
-     <div style="max-width: 1150px; margin: 0 auto;">
+     <div style="max-width: 950px; margin: 0 auto;">
      <div class="containter">
      <div class="row headerstuff">
       
-        <div class="headerpic col-sm-6  ">
-          <img src="http://alldaycreative.co.uk/wp-content/themes/allday/images/new-slide-one.jpg"/>
+        <div class="headerpic col-sm-4  ">
+          <img src="../images/TeamImage.png" width="250" />
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-8">
             <div class="contentHolder" >
 				 <h1 >
 					Normal ist überbewertet
@@ -63,6 +59,57 @@
 				 <p >
 				  Wir sind etwas besonderes!
 				 </p>
+            </div>
+        </div> 
+       
+      </div>
+      <div class="row headerstuff">
+      
+        <div class="headerpic col-sm-4  ">
+           <img src="../images/TeamImage.png" width="250" />
+        </div>
+        <div class="col-sm-8">
+            <div class="contentHolder" >
+         <h1 >
+          Normal ist überbewertet
+         </h1>
+         <p >
+          Wir sind etwas besonderes!
+         </p>
+            </div>
+        </div> 
+       
+      </div>
+      <div class="row headerstuff">
+      
+        <div class="headerpic col-sm-4  ">
+           <img src="../images/TeamImage.png" width="250" />
+        </div>
+        <div class="col-sm-8">
+            <div class="contentHolder" >
+         <h1 >
+          Normal ist überbewertet
+         </h1>
+         <p >
+          Wir sind etwas besonderes!
+         </p>
+            </div>
+        </div> 
+       
+      </div>
+      <div class="row headerstuff">
+      
+        <div class="headerpic col-sm-4  ">
+          <img src="../images/TeamImage.png" width="250" />
+        </div>
+        <div class="col-sm-8">
+            <div class="contentHolder" >
+         <h1 >
+          Normal ist überbewertet
+         </h1>
+         <p >
+          Wir sind etwas besonderes!
+         </p>
             </div>
         </div> 
        
