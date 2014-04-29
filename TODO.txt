@@ -1,6 +1,6 @@
 TODO:
 
-1. LOC: aboutUs1,2 index    
+1. LOC: aboutUs1,2 index    DONE
    -slikata i textot da imaat vertikalno centralno poramnuvanje 
    
 2. LOC: all    DONE              
@@ -27,10 +27,10 @@ TODO:
    -da napravime novo logo letra translations namesto летра преводи
    -da se zgolemi logoto (optional da vidime kako kje ni se svigja imam hq slika za ova)   
    
-7. LOC: all
+7. LOC: all Neka se ebe, ova na lice mesto
    -povekje font varijanti (mal prioritet moze da ostane na kraj) 
    
-8. LOC: abortus3
+8. LOC: abortus3 DONE
    -da se napravi team stranica so mesto za povekje team memeberi od tipot slika, text   
 
 8. LOC: pinkPanter - GORDZ DONE
