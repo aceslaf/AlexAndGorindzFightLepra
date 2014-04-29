@@ -55,5 +55,8 @@ TODO:
     -Da se trgnat nepotrebni scripti i ostatoci od copy paste
 	 
 	 
-12. LOC: aboutus2
+12. LOC: aboutus2 DONE
     - BUG, dodadi mn tekst i width na slikata ke zabega epten, neso so toa widthVrzHeight=2.13178294574 da ne se ebe?
+	  FIXED, it isn't a bug, it's a feature! Toa 2,blabla e ustvari aspect ratioto na slikata. So kockasti sliki nema gajle :DECKO
+13. LOC: aboutus2, 10
+     -BUG otvori ja i stisni refresh edno 10-15 pati. Poleka. Ne odma. See what happens :D.	  

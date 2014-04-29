@@ -31,27 +31,30 @@
          });
 
          function fixPicture(){
-          var widthVrzHeight=2.13178294574; 
+          var widthVrzHeight=/*2.13178294574*/ 1; 
            var nWidth=$(window).width();   
-           if(nWidth<768){
+           if(nWidth<768){   //ZA MOBILNI NEKA GO ZAFAKJA CELL EKRAN
              $(".headerpic>img").attr("width",nWidth);
              return;
            }else{
+             //ZA GOLEMI EKRANI,
              var textHeight=$('.contentHolder').height(); 
              var paddT = $('.contentHolder').outerHeight() - textHeight;
              var neededPicWidth=widthVrzHeight*textHeight;
+             //AKO E VISOKA KOLKU TEKSTOT ARNO
                if(neededPicWidth<(nWidth/2)){
-                  $(".headerpic>img").attr("width",Math.floor(nWidth/2)); 
+                  $(".headerpic>img").attr("width",/*Math.floor(nWidth/2)*/neededPicWidth); 
                }else{
+                //AKO E PONISKA OD TEKSTOT NEKA  RASTE PO CENA DA NE SE GLEDA CELA
                    $(".headerpic>img").attr("width",neededPicWidth); 
-                   $(".headerpic").attr("padding-top",Math.floor(paddT/2)+"px");
+                  // $(".headerpic").attr("padding-top",Math.floor(paddT/2)+"px");
                }   
            }
 
            var contentHeight = $(".contentHolder").innerHeight();
           var slikaHeigt = parseInt($(".headerpic>img").css("height"));
           if(contentHeight>slikaHeigt){
-            $(".headerpic>img").css("margin-top",Math.floor((contentHeight-slikaHeigt)/2)+"px"); 
+            $(".headerpic>img").css("margin-bot",Math.floor((contentHeight-slikaHeigt)/2)+"px"); 
           }
                                     
             
@@ -70,7 +73,7 @@
      <div class="row headerstuff">
       
         <div class="headerpic col-sm-6  ">
-          <img src="http://alldaycreative.co.uk/wp-content/themes/allday/images/new-slide-one.jpg"/>
+          <img src="http://upload.wikimedia.org/wikipedia/en/7/71/Deep-Magenta-Square%2C-1978.jpg"/>
         </div>
         <div class=" col-sm-6">
           <div class="contentHolder prored" >

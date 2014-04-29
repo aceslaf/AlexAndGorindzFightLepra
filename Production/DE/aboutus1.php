@@ -24,35 +24,67 @@
       <script type="text/javascript">
          $(document).ready(function(){
 			     fixPicture();
+           $(window).trigger("resize");
          });
          
          $(window).resize(function(){
 			     fixPicture();
          });
 
-         function fixPicture(){
+         // function fixPicture(){
 
 
 
-         	 var nWidth=$(window).width();   
-	         if(nWidth<768){
-	           $(".headerpic>img").attr("width",nWidth);
+         // 	 var nWidth=$(window).width();   
+	        //  if(nWidth<768){
+	        //    $(".headerpic>img").attr("width",nWidth);
+         //     return;
+	        //  }
+         //   if((nWidth>=768)&&(nWidth<1400)){	                       
+         //      var paddT = $('.contentHolder').outerHeight() - $('.contentHolder').height();              
+         //     $(".headerpic>img").attr("width",825); 
+         //     $(".headerpic").attr("padding-top",Math.floor(paddT/2)+"px");
+	        //  }else{//nwidth>=1400
+         //     $(".headerpic>img").attr("width",Math.floor(nWidth/2)); 
+         //   }
+
+         //  var contentHeight = $(".contentHolder").innerHeight();
+         //  var slikaHeigt = parseInt($(".headerpic>img").css("height"));
+         //  if(contentHeight>slikaHeigt){
+         //    $(".headerpic>img").css("margin-top",Math.floor((contentHeight-slikaHeigt)/2)+"px"); 
+         //  }
+
+         // }
+
+          function fixPicture(){
+          var widthVrzHeight=/*2.13178294574*/ 1; 
+           var nWidth=$(window).width();   
+           if(nWidth<768){   //ZA MOBILNI NEKA GO ZAFAKJA CELL EKRAN
+             $(".headerpic>img").attr("width",nWidth);
              return;
-	         }
-           if((nWidth>=768)&&(nWidth<1400)){	                       
-              var paddT = $('.contentHolder').outerHeight() - $('.contentHolder').height();              
-             $(".headerpic>img").attr("width",825); 
-             $(".headerpic").attr("padding-top",Math.floor(paddT/2)+"px");
-	         }else{//nwidth>=1400
-             $(".headerpic>img").attr("width",Math.floor(nWidth/2)); 
+           }else{
+             //ZA GOLEMI EKRANI,
+             var textHeight=$('.contentHolder').height(); 
+             var paddT = $('.contentHolder').outerHeight() - textHeight;
+             var neededPicWidth=widthVrzHeight*textHeight;
+             //AKO E VISOKA KOLKU TEKSTOT ARNO
+               if(neededPicWidth<(nWidth/2)){
+                  $(".headerpic>img").attr("width",/*Math.floor(nWidth/2)*/neededPicWidth); 
+               }else{
+                //AKO E PONISKA OD TEKSTOT NEKA  RASTE PO CENA DA NE SE GLEDA CELA
+                   $(".headerpic>img").attr("width",neededPicWidth); 
+                  // $(".headerpic").attr("padding-top",Math.floor(paddT/2)+"px");
+               }   
            }
 
-          var contentHeight = $(".contentHolder").innerHeight();
+           var contentHeight = $(".contentHolder").innerHeight();
           var slikaHeigt = parseInt($(".headerpic>img").css("height"));
           if(contentHeight>slikaHeigt){
             $(".headerpic>img").css("margin-top",Math.floor((contentHeight-slikaHeigt)/2)+"px"); 
           }
-
+                                    
+            
+           
          }
       </script>
       <style type="text/css">
@@ -78,7 +110,8 @@
      <div class="row headerstuff">
       
         <div class="headerpic col-sm-6  ">
-          <img src="http://alldaycreative.co.uk/wp-content/themes/allday/images/new-slide-one.jpg"/>
+          <!-- <img src="http://alldaycreative.co.uk/wp-content/themes/allday/images/new-slide-one.jpg"/> -->
+          <img src="http://upload.wikimedia.org/wikipedia/en/7/71/Deep-Magenta-Square%2C-1978.jpg"/>
         </div>
         <div class="col-sm-6">
             <div class="contentHolder prored" >
