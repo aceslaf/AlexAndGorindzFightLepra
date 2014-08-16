@@ -54,7 +54,7 @@
         <div class="col-sm-8">
             <div class="contentHolder" >
 				 <h1 >
-					Normal ist überbewertet
+					Nina Shutareva
 				 </h1>
 				 <p >
 				  Wir sind etwas besonderes!
@@ -71,7 +71,7 @@
         <div class="col-sm-8">
             <div class="contentHolder" >
          <h1 >
-          Normal ist überbewertet
+          Martin Tonevski
          </h1>
          <p >
           Wir sind etwas besonderes!
@@ -88,7 +88,7 @@
         <div class="col-sm-8">
             <div class="contentHolder" >
          <h1 >
-          Normal ist überbewertet
+          Elena Boshkovska
          </h1>
          <p >
           Wir sind etwas besonderes!
@@ -97,22 +97,35 @@
         </div> 
        
       </div>
-      <div class="row headerstuff">
+       <div class="row headerstuff">
       
         <div class="headerpic col-sm-4  ">
-          <img src="../images/TeamImage.png" width="250" />
+           <img src="../images/TeamImage.png" width="250" />
         </div>
         <div class="col-sm-8">
             <div class="contentHolder" >
          <h1 >
-          Normal ist überbewertet
+          Marlene
          </h1>
          <p >
-          Wir sind etwas besonderes!
+         Marlene Gräfin von Baden-Bunjakovec - Rezeption und Kundenbeziehungen
          </p>
             </div>
         </div> 
        
+      </div>
+      
+	  <div class="row headerstuff" style="padding-left: 3px; margin-left: 3px;">
+     <div >
+           <h1  style="font-family: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                       color: rgb(165,182,42);">
+          Externe Kollegen:Externe Kollegen:
+         </h1>
+         <p style="font-family: 'Bariol_Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                   color: #999;">
+          Wir bedanken uns recht herzlich bei allen externen Übersetzern und Dolmetschern, die es ermöglicht haben, dass Letra Translations immer hochwertig und termingerecht in den letzen Jahren gearbeitet danken: Lile, Sanja, Igor, Tanja, Vlatko, Nadica, Jana, Tamara, Maja, Vale, Adrijana, Elena, Renata, Marija, Nikola, Oliver, Ardian, Blerina, Zvezdan und allen anderen die ihre Hingabe, Leidenschaft und Profesionalität für uns eingesetzt haben. 
+         </p>
+       </div>
       </div>
      </div>
      </div>

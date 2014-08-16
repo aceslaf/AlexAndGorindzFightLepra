@@ -146,30 +146,43 @@
                   <h3 style="border: none; border-radius: 0;" onclick="acordionClick(mobileScreen,0)">Beglaubigte Übersetzung</h3>
                   <div>
                     <p>
-                    Sollten Sie eine von einem staatlich geprüften Übersetzer beglaubigte Übersetzung brauchen, die Rechtsgültigkeit hat, dann sind Sie bei uns an der richtigen Adresse. 
-                    Wir sind  für beglaubigte Übersetzungen in zahlreichen Sprachen zugelassen, vor allem in Deutsch, Englisch, Spanisch und Mazedonisch.
-                    Wenn Sie einen solchen Service in anderen Sprachen benötigen, verfügen wir über ein breites Netzwerk an staatlich geprüften Übersetzern in allen Sprachen und Branchen.
+                    Wenn Sie die Übersetzung Ihrer Urkunden vor Behörden vorlegen müssen, dann brauchen Sie eine vom vereideten Übersetzer beglaubigte Übersetzung.
                     <br/>
                     <br/>
                     <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+					<br/>
 
                     </p>
                   </div>
 
                   <h3 onclick="acordionClick(mobileScreen,0)" >Eilaufträge</h3>
                   <div>
-                    <p>Da LETRA auch Schnelligkeit bedeutet, sind Sie an der richtigen Stelle für Übersetzungen in kürzester Zeit. 
-                       Wir übersetzen Ihre amtlichen Dokumente vor Ihren Augen und Sie können Sie sofort mitnehmen. 
-                       Einzelne Dokumente in Länge von 100 bis 200 Wörtern können von unseren Mitarbeitern in ca. 30 bis 60 Minuten fertiggestellt werden. 
+                    <p>Manchmal passiert es, dass trotz makkelloser Planung, unvorhersehbare Erignisse zu Stande kommen 
+                    die eine schelle und effiziente Reaktion anfordern. Aus diesem Grund ist unser Team flexibel und engagiert.
+                     Egal ob Sie eine schnelle Übersetzung mit Beglaubigung oder nur elektronisch brauchen, setzen Sie sich mit uns in Verbindung  
                     </p>
                   </div>
 
-                  <h3 onclick="acordionClick(mobileScreen,0)">Lokalisierung von Internetseiten </h3>
+                  <h3 onclick="acordionClick(mobileScreen,0)">Software Lokalisierung </h3>
                   <div>
                     <p>
-                       Heutzutage ist es für Unternehmen wichtig sich überall auf der Welt vorstellen zu können, natürlich über das Internet und im Idealfall in der Sprache des Landes, 
-                       in dem man sich präsentieren möchte. So ist es von äußerster Wichtigkeit eine Internetseite lokaliesieren lassen zu können. 
-                   </p>                    
+						Das Übersetzen von    Software und Webseiten ist eine Sonderdizipling für die Kenntnisse in Programiersprachen, Software-Struktur und -Funktionalitäten, Zielkultur, Benehmen und
+					    Vorlieben der Zielgruppen benötigt werden. Diese Art von Übersetzungen bereitet uns große Freude, da wir zu der Generation gehören die die
+					     Welt manchmal in 1 und 0 betrachtet und ist begeistert wenn sie Kulturen, Personen und Produkten aus aller Welt übers Internet verbinden darf.                    
+				    </p>                    
+                  </div>
+
+                  <h3 onclick="acordionClick(mobileScreen,0)">Beratung </h3>
+                  <div>
+                    <p>
+						Auf Grund unserer Erfahrung stehen wir Ihnen zur Verfügung in folgenden Bereichen:
+						Informationen über die notwendigen Unterlagen für Aufenthaltsangelegenheiten im Ausland oder im Mazedonien
+						allgemeine unverbindliche Informationen über die gesetzliche Bestimmungen in Mazedonien und im deutschsprachigen Raum, insbesondere in Bereich der Handelsgesellschaften und Körperschaftssteuer
+				    </p>                    
                   </div>
                   
           </div>
@@ -180,26 +193,35 @@
                   <h3 style="border: none; border-radius: 0;" onclick="acordionClick(mobileScreen,1)">Dolmetschen</h3>
                   <div>
                     <p>
-                       Langjährige Erfahrung und Kenntnisse zeichnen LETRA auch im bereich des Dolmetschen aus. Wenn wir dolmetschen, können die anderen nur gucken.
-                        Lehnen Sie sich zurück und stören Sie sich nicht damit, eine fremde Sprache verstehen zu müssen. Das machen wir für Sie.
-                       onferenzen, Sitzungen, Versammlungen, Tagungen und sonstige Veranstalltungen - wir sind immer dort, wo Sie uns brauchen und geben 130%. Unsere Kompetenzen stehen Ihnen stehts zu Diensten. 
-                       Wir dolmetschen aus dem Deutschen, Englischen und Spanischen ins Mazedonische, sowie umgekehrt.   
+                       Das Dolmetschen erfolgt mündlich und wird bei Konferenzen, Seminaren, Trainings oder hinter geschlossenen Türen, bei Besprechungen, 
+                       Verhandlungs u.Ä. eingesetzt.
+                       <br/>
+                       <br/>
+                       <br/>
+                       <br/>
+                       <br/>
+                       <br/>
+                       <br/>
+                       
+
                    </p>
                   </div>
                   <h3 onclick="acordionClick(mobileScreen,1)">Simultandolmetschen</h3>
                   <div>
                     <p>
-                        Beim Simultandolmetschen findet die Verdolmetschung zeitgleich mit dem Redner   statt.
-                        Als Dolmetscher arbeiten wir zu zweit oder sogar zu dritt in einer   Dolmetscherkabine für jede gedolmetschte Sprache und wir wechseln uns   regelmäßig ab.
-                        Diese Art des Dolmetschens ist die gebräuchlichste und wird  insbesondere bei Mehrsprachigen Konferenzen, Kongressen, Pressekonferenzen  und Fernsehsendungen verwendet.
+                        Für das Simultandolmetschen werden mindestens zwei Dolmetscher und eine Kabine pro Sprachkombination benötigt. 
                     </p>
                   </div>
                   <h3 onclick="acordionClick(mobileScreen,1)">Konsekutivdolmetschen</h3>
                   <div>
                     <p>
-                      Hier trägt der Redner größere inhaltlich zusammenhängende Passagen seiner   Ansprache ohne Unterbrechung vor und wir verdolmetschung unmittelbar im   Anschluss. 
-                      Konsekutivdolmetschen erfordert einen geringen technischen Aufwand, ein   Mikrofon ist reicht vollkommen aus und ist daher äußerst praktisch. 
+                      Für das konsekutive Dolmetschen ist zwar keine Kabine notwendig, aber der Organisator sollte darauf achten, dass das Event wegen der Verdolmetschung doppelt so lange dauern könnte.  
                     </p>                    
+                  </div><h3 onclick="acordionClick(mobileScreen,1)">Verhandlungsdolmetschen</h3>
+                  <div>
+                    <p>
+                         Dolmetschen während Besprechung, Verhandlungen, vor Ort usw.                    
+                     </p>                    
                   </div>
                   
           </div>  
