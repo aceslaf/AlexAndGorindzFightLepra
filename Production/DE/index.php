@@ -136,33 +136,53 @@
 	               <div class="item">
 	              
 					 <h1 class="fancyTitleFont colorGreen"  >
-						Normal ist überbewertet
+						Übersetzungen
 					 </h1>
 					 <p class="defaultFont"
 					    >
-					  Wir sind etwas besonderes!
+					 Sie haben Fernweh oder Reiselust? Oder Sie arbeiten oft mit dem Ausland?
 					 </p>
 				   </div>	 
 				   <div class="item">
-	                  
-	                  <p class="defaultFont">
-					  „Wenn Du mit einem Menschen eine Sprache sprichst die er versteht, erreichst Du seinen Kopf (Verstand). Wenn Du mit ihm in seiner Sprache sprichst, erreichst Du sein Herz.‟ 
-					 </p>
-					 <h1 class="fancyTitleFont colorGreen">
-						-Nelson Mandela
+	                   <h1 class="fancyTitleFont colorGreen">
+						Letra Übersetzungen
 					 </h1>
+	                  <p class="defaultFont">
+					  Sie gedenken in Mazedonien geschäftlich tätig zu sein?
+					 </p>
+					
 					 
 				   </div>	 
 				   <div class="item">
 	              
 					 <h1 class="fancyTitleFont colorGreen">
-						Pure awesomeness
+						Sie verreisen oder übersiedeln und benötigen plötzlich eine Reihe von Dokumenten?
 					 </h1>
-					 <p class="defaultFont">
+					<!--  <p class="defaultFont">
 					 in 12 diferent languages
-					 </p>
+					 </p> -->
 
 				   </div>	 
+				   <div class="item">
+	              
+					 <h1 class="fancyTitleFont colorGreen">
+						 Sie organisieren internationale Konferenzen und Events?
+					 </h1>
+					<!--  <p class="defaultFont">
+					
+					 </p> -->
+
+				   </div>
+				   <div class="item">
+	              
+					 <h1 class="fancyTitleFont colorGreen">
+						Sie sind hier richtig.
+					 </h1>
+					<!--  <p class="defaultFont">
+					
+					 </p> -->
+
+				   </div>
 
             </div>
         </div> 
