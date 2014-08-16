@@ -117,28 +117,31 @@
             <div class="contentHolder prored" >
 				 
                 
-              <h3>Sprachen:</h3>
+              <h3>Sprachen und Tools:</h3>
               <div>
                 <ul>
                   <li><span>Deutsch</span></li>
                   <li><span>Englisch</span></li>
                   <li><span>Spanisch</span></li>
                   <li><span>Mazedonisch</span></li>
+                  <li><span>CAT-Tools: TRADOS 2011</span></li>
                 </ul>
               </div>
 
 
 
-              <h3>Nur für Übersetzungen:</h3>
+              <h3>Externe:</h3>
               <div>
                 <ul>              
-                <li><span>Französich</span></li>
+                
                 <li><span>Albanisch</span></li>
-                <li><span>Croatisch</span></li>
-                <li><span>Serbisch</span></li>
-                <li><span>Griechisch</span></li>
-                <li><span>Niederländisch</span></li>
                 <li><span>Italienisch</span></li>
+                <li><span>Französich</span></li>
+                <li><span>Russisch</span></li>
+                <li><span>Kroatisch</span></li>
+                <li><span>Rumänisch</span></li>
+                <li><span>Niederländisch</span></li>
+                
                 </ul>
               </div>
 

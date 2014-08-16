@@ -77,20 +77,22 @@
         </div>
         <div class=" col-sm-6">
           <div class="contentHolder prored" >
-				    <center><h3> Qualität</h3></center>
+				    <center><h3> Hochwertigkeit</h3></center>
             <p>
-                Die Hochwertigkeit, die LETRA Ihnen anbietet bekommen Sie nirgendwo sonst. Wir sind die besten in unserem Geschäft und das haben schon viele Klienten bezeugt. Suchen Sie nicht weiter, wenn sie eine professionelle, schnelle und hochwertige Übersetzung brauchen. Überzeugen Sie sich selbst von unseren Fachkenntnissen und Fertigkeiten.
+                Studien, langjährige Auslandsaufenthalte, zahlreiche Trainings und Semirane haben uns zufriedene Kunden gebracht mit denen wir unsere Erfahrung stets vertiefen .
+                Trotzdem hören wir mit dem Lernen nie auf. Da jeder Kunde verschieden ist,  gibt es Spezifika bei jeder Übersetzung, Terminologie und Dokument. Unser persönlicher Ansatz und gewidmete Kundenorientung gewährleisten den Erfolg unserer Dienste.
            </p>
             <br/>
             <center><h3>Schnelligkeit</h3></center>
             <p>
-              Brauchen Sie eine schnelle Übersetzung? Hier sind Sie richtig. STOP gibt es für uns nicht, genauso wenig wie UNMÖGLICH. Wir machen alles MÖGLICH, so SCHNELL wie MÖGLICH. Und das alles ohne an Qualität einbüßen zu müssen, so gut sind wir. Schneller als bei uns geht es nicht, fragen Sie nicht weiter. Die Konkurenz lügt.
+              Aussagen wie "ich brauche es dringend" gehören zu unserem Alltag. Unser Team setzt sich aus Enthusiasten zusammen, die durch Herausforderungen wachsen.
             </p>
 
             <br/>
-            <center><h3>Diskretion</h3></center>
+            <center><h3>Verlässlichkeit und Diskretion</h3></center>
             <p>
-              Vertraulich? Kein problem, vertrauen Sie uns. Alle unsere mitarbeiter sind an eine Geheimhaltungsvereinbarung gebunden. Wir achten auf den Schutz Ihrer Daten und versichern sorgfältigen Umgang mit Ihren Dokumenten. Was bei LETRA passiert, bleibt bei LETRA.
+              Letra Translations verpflichtet sich darauf, dass jegliche mit uns aufgenommene Korrespondenz, unabhängig ob formell oder informell, verbindlich oder unverbindlich, schriftlich, elektronisch oder mündlich, geheimgehalten wird. 
+              Das gesamte Team von Letra Translation hat Geheimhaltungserklärungen unterzeichnet und das Unternehmen als juristische Person unterschreibt gerne einen NDA-Vertrag mit Ihnen.
             </p>
             <br/>
           </div>
