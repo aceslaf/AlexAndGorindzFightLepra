@@ -38,14 +38,49 @@
          }
         </style>
         <script>
-              $(function() {
-                $( ".acrd" ).accordion({
-                  collapsible: true,
-                active:false,
-                icons:false,
-                heightStyle: "content"
-                });
-              });
+               var mobileScreen=true;
+               var accordions=new Object();
+               $(document).ready(function(){
+				  var windowWidth=$(window).width(); 
+                  mobileScreen=(windowWidth<768);
+                  
+                  makeAccordion(mobileScreen);              	  
+              	});              
+               
+              
+
+
+              var makeAccordion=function(isMobile) {
+              	var settings;
+               	if(isMobile){// MOBILE SCREEN
+               		settings={
+		                collapsible: true,
+		                active:false,
+		                icons:false,
+		                heightStyle: "content",
+                        autoHeight: false,
+                        clearStyle: true, 
+	                }	                
+                }else{// LARGE SCREEN
+                	settings={};
+                }
+
+                
+                accordions[0]=$( ".acrd0" ).accordion(settings);                 
+                accordions[1]=$( ".acrd1" ).accordion(settings);
+              };
+              var acordionClick=function(isMobile,acrNum){
+                         if(!isMobile){
+                             return;
+                         }
+                         //calculate other acordion
+                         var other= 1 - acrNum; 
+                         
+                         accordions[other].accordion("option","active",false);
+
+
+
+              };
         </script>
 
 
@@ -97,68 +132,98 @@
           font-size: 18px;
           font-weight: bold;
           margin-bottom: 10px;
+          text-align: center
         }
 
      </style>
+     <div class="content">
+     <div style="max-width: 1150px; margin: 0 auto;">
      <div class="row">
-        <div class="uslugiimg"><img src="../images/uslugi.png"/></div>
+        <!-- <div class="uslugiimg"><img src="../images/uslugi.png"/></div> -->
         <div class="col-sm-6  ">
            <div class="uslugatitle">Pismen prevod</div>    
-           <div class="acrd">
-                  <h3 style="border: none; border-radius: 0;">Beglaubigte Übersetzung</h3>
+           <div class="acrd acrd0">
+                  <h3 style="border: none; border-radius: 0;" onclick="acordionClick(mobileScreen,0)">Судски преводи</h3>
                   <div>
                     <p>
-                    Sollten Sie eine von einem staatlich geprüften Übersetzer beglaubigte Übersetzung brauchen, die Rechtsgültigkeit hat, dann sind Sie bei uns an der richtigen Adresse. 
-                    Wir sind  für beglaubigte Übersetzungen in zahlreichen Sprachen zugelassen, vor allem in Deutsch, Englisch, Spanisch und Mazedonisch.
-                    Wenn Sie einen solchen Service in anderen Sprachen benötigen, verfügen wir über ein breites Netzwerk an staatlich geprüften Übersetzern in allen Sprachen und Branchen.
+                    Ако преводот кој Ви е потребен, треба да го приложите пред државни органи или нотари, тогаш Ви треба превод  од овластен судски преведувач.  
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                   
+
                     </p>
                   </div>
 
-                  <h3>Eilaufträge</h3>
+                  <h3 onclick="acordionClick(mobileScreen,0)" >Брзи преводи</h3>
                   <div>
-                    <p>Da LETRA auch Schnelligkeit bedeutet, sind Sie an der richtigen Stelle für Übersetzungen in kürzester Zeit. 
-                       Wir übersetzen Ihre amtlichen Dokumente vor Ihren Augen und Sie können Sie sofort mitnehmen. 
-                       Einzelne Dokumente in Länge von 100 bis 200 Wörtern können von unseren Mitarbeitern in ca. 30 bis 60 Minuten fertiggestellt werden. 
+                    <p>
+                    Некогаш и покрај најдоброто планирање, излегуваат непредвлидливи
+                     околности кои наложуваат да се реагира брзо и ефикасно. Затоа нашиот тим е флексибилен и 
+                    посветен. Без разлика дали Ви треба превод со заверка или само по електронски пат, обратете ни се. 
                     </p>
                   </div>
 
-                  <h3>Lokalisierung von Internetseiten </h3>
+                  <h3 onclick="acordionClick(mobileScreen,0)">Локализирање на софтвер</h3>
                   <div>
                     <p>
-                       Heutzutage ist es für Unternehmen wichtig sich überall auf der Welt vorstellen zu können, natürlich über das Internet und im Idealfall in der Sprache des Landes, 
-                       in dem man sich präsentieren möchte. So ist es von äußerster Wichtigkeit eine Internetseite lokaliesieren lassen zu können. 
-                   </p>                    
+						          DasПревод на софтвер и веб страници претставува посебна дисциплина за која се потребни познавања од програмски јазици, структурата и функционирањето на софтверот, културата во која се локализира производот, однесувањето и навиките на целните групи. Овој вид на преводи ни претставува 
+                      особено задоволство, бидејќи припаѓаме на таа генерација која понекогаш го гледа светот електронски  
+                     и едвај чека да ги поврзе културите, луѓето и производите од целиот свет преку интернет. 				    </p>                    
+                  </div>
+
+                  <h3 onclick="acordionClick(mobileScreen,0)">Консалтинг </h3>
+                  <div>
+                    <p>
+          						Поради искуството, Ви стоиме на располагање за консултации од типот:
+                      информации за потребна документација за регулирање престој во странство или за странци во Македонија
+                      општи необврзувачки информации за законските прописи во Македонија и во земјите од германско говорно подрачје, посебно оние од областа на трговските друштва и корпоративното право
+				           </p>                    
                   </div>
                   
           </div>
         </div>
         <div class="col-sm-6">
           <div class="uslugatitle">Interpretirawe</div>    
-          <div class="acrd">
-                  <h3 style="border: none; border-radius: 0;">Dolmetschen</h3>
+          <div class="acrd acrd1">
+                   <h3 onclick="acordionClick(mobileScreen,1)">Толкување</h3>
                   <div>
                     <p>
-                       Langjährige Erfahrung und Kenntnisse zeichnen LETRA auch im bereich des Dolmetschen aus. Wenn wir dolmetschen, können die anderen nur gucken.
-                        Lehnen Sie sich zurück und stören Sie sich nicht damit, eine fremde Sprache verstehen zu müssen. Das machen wir für Sie.
-                       onferenzen, Sitzungen, Versammlungen, Tagungen und sonstige Veranstalltungen - wir sind immer dort, wo Sie uns brauchen und geben 130%. Unsere Kompetenzen stehen Ihnen stehts zu Diensten. 
-                       Wir dolmetschen aus dem Deutschen, Englischen und Spanischen ins Mazedonische, sowie umgekehrt.   
+                         Толкувањето претставува устен превод и се користи на конференции, семинари, обуки или пак во затворени кругови, на состаноци, преговори и слично. 
+                         <br/>
+                       <br/>
+                       <br/>
+                       <br/>
+                       <br/>
+                       <br/>
+                       <br/>
+                     </p>                    
+                  </div>
+                  <h3 style="border: none; border-radius: 0;" onclick="acordionClick(mobileScreen,1)">Симултано </h3>
+                  <div>
+                    <p>
+                       За симултаното толкување потребни се минимум двајца толкувачи и една кабина за една јазична комбинација
+                       
+                       
+
                    </p>
                   </div>
-                  <h3>Simultandolmetschen</h3>
+                  <h3 onclick="acordionClick(mobileScreen,1)">Консекутивно</h3>
                   <div>
                     <p>
-                        Beim Simultandolmetschen findet die Verdolmetschung zeitgleich mit dem Redner   statt.
-                        Als Dolmetscher arbeiten wir zu zweit oder sogar zu dritt in einer   Dolmetscherkabine für jede gedolmetschte Sprache und wir wechseln uns   regelmäßig ab.
-                        Diese Art des Dolmetschens ist die gebräuchlichste und wird  insbesondere bei Mehrsprachigen Konferenzen, Kongressen, Pressekonferenzen  und Fernsehsendungen verwendet.
+                        Кај консекутивното толкување не е потребна кабина, но имајте предвид дека вашиот настан може да трае речиси двојно подолго поради преводот. 
                     </p>
                   </div>
-                  <h3>Konsekutivdolmetschen</h3>
+                  <h3 onclick="acordionClick(mobileScreen,1)">Двонасочно</h3>
                   <div>
                     <p>
-                      Hier trägt der Redner größere inhaltlich zusammenhängende Passagen seiner   Ansprache ohne Unterbrechung vor und wir verdolmetschung unmittelbar im   Anschluss. 
-                      Konsekutivdolmetschen erfordert einen geringen technischen Aufwand, ein   Mikrofon ist reicht vollkommen aus und ist daher äußerst praktisch. 
+                      Толкување на состаноци, преговори, на терен. 
                     </p>                    
                   </div>
+
                   
           </div>  
         </div> 
@@ -185,6 +250,8 @@
           </div>
         </div> -->
        </div> 
+       </div>
+      </div>
       </div>
      </div>
      
@@ -202,7 +269,7 @@
 
      <!-- FOOOTER-->
         <!-- FOOOTER-->
-   <div class="footer /* bggreen*/ ">   
+   <div class="footer  /*bggreen*/ " style="border-top: none;">   
        <div class="container">
          <p>@Letra 2014</p>
        </div>

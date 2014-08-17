@@ -117,6 +117,8 @@
 
 
      <!--CONTENT -->
+     <div class="content">
+     <div style="max-width: 1150px; margin: 0 auto;">
      <div class="containter" style="width:90%;margin:0 auto 20px auto;">
      <div class="row headerstuff">
       
@@ -127,10 +129,10 @@
           <center><strong style="font-size:18px;margin-bottom:10px;display:block;">ДРУШТВО ЗА ПРОМЕТ И УСЛУГИ ЛЕТРА ПРЕВОДИ ДООЕЛ СКОПЈЕ</strong>
           Локација: ул. Коста Шахов 14a, 1000 Скопје - Центар</center><br/>
           <div class="row">
-          <div style="width:50%;float:left;padding-left:15px;">
+          <div style="width:50%;float:left;padding-left:15px;line-height: 18px;">
            <strong>Телефон:</strong><br/>+389(2)3 214-572
           </div>
-          <div style="width:50%;float:right;text-align:right;">
+          <div style="width:50%;float:right;text-align:right;line-height: 18px;">
             <strong>Е-пошта:</strong><br/><a href="mailto:info@letraprevodi.mk">info@letraprevodi.mk</a>
           </div>
           </div>
@@ -138,13 +140,15 @@
             <label><input required placeholder="Предмет" type="text" name="predmet"/></label><br/>
             <label><input required placeholder="Ваш контакт" type="email" name="kontakt"/></label><br/>
             <label>Опис:<br/><textarea name="opis" required></textarea></label><br/>
-            <button type="submit">Испрати</button>
+            <button style="float:left;width:20%;min-width:70px;" type="submit">Испрати</button>
+            <div style="float:left;color:#999;margin-top:18px;width:80%;text-align:right;">Се обврзуваме на дискреција за секој испратен емаил</div>
           </form>
         </div> 
        
       </div>
      </div>
-
+     </div>
+     </div>
      <!-- FOOOTER-->
 	 <div class="footer /*bggreen */">	 
 			 <div class="container">

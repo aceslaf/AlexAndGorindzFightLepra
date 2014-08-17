@@ -29,31 +29,31 @@
 
       <script type="text/javascript">
          $(document).ready(function(){
-			fixPicture();
+			//fixPicture();
 			makeCarousel();
          });
          
-         $(window).resize(function(){
-			fixPicture();
-         });
+         // $(window).resize(function(){
+			// fixPicture();
+         // });
 
-        function fixPicture(){
-           var widthVrzHeight=2.13178294574; 
-           var nWidth=$(window).width();   
-           if(nWidth<768){
-             $(".headerpic>img").attr("width",nWidth);
-             return;
-           }
-            if(nWidth<1400){
-              $(".headerpic>img").attr("width",825);	
-              return;
-            }
+        // function fixPicture(){
+        //    var widthVrzHeight=2.13178294574; 
+        //    var nWidth=$(window).width();   
+        //    if(nWidth<768){
+        //      $(".headerpic>img").attr("width",nWidth);
+        //      return;
+        //    }
+        //     if(nWidth<1400){
+        //       $(".headerpic>img").attr("width",825);	
+        //       return;
+        //     }
 
-            if(nWidth>=1400){
-               $(".headerpic>img").attr("width",Math.floor(nWidth*0.55));	
-              return;	
-            }
-          };    
+        //     if(nWidth>=1400){
+        //        $(".headerpic>img").attr("width",Math.floor(nWidth*0.55));	
+        //       return;	
+        //     }
+        //   };    
 
 
            //   var textHeight=$('.contentHolder').height(); 
@@ -88,7 +88,7 @@
           .item{
           	padding: 5px;
           }
-          #owl-demo .owl-item img{
+          /*#owl-demo .owl-item img{
 			  display: block;
 			  width: 100%;
 			  height: auto;
@@ -101,6 +101,15 @@
 				margin right: auto;
 				margin-left: auto;
 
+			}*/
+			#owl-demo .item img{
+			    display: block;
+			    width: 100%;
+			    height: auto;
+			}
+			.container1 {				
+				margin-right: auto;
+				margin-left: auto;
 			}
       </style>
    </head>
@@ -109,10 +118,12 @@
 
 
      <!--CONTENT -->
+     <div class="content">
+     <div style="max-width: 950px; margin: 0 auto;">
      <div class="containter">
-     <div class="row headerstuff">
-        <div class="col-sm-12">        
-  			  <div id="owl-demo" class="owl-carousel owl-theme" >
+     <!-- <div class="row headerstuff">
+        <div class="col-sm-12">         -->
+  			 <!--  <div id="owl-demo" class="owl-carousel owl-theme" >
   	         <div class="item">
                   <img src="../images/img1.jpg" alt="The Last of us">
              </div>              
@@ -124,7 +135,31 @@
              </div>              
              <div class="item">
                   <img src="../images/cloud.jpg" alt="The Last of us">
-             </div>        
+             </div>         -->
+            
+		        <div class="container1">
+		          <div class="row">
+		            <div class="span12">
+		              <div id="owl-demo" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
+		                     <div class="item">
+		                  		<img src="../images/img1.jpg" alt="The Last of us">
+				             </div>              
+				             <div class="item">
+				                  <img src="../images/img3.jpg" alt="The Last of us">
+				             </div> 
+				             <div class="item">
+				                  <img src="../images/img4.jpg" alt="The Last of us">
+				             </div>              
+				             <div class="item">
+				                  <img src="../images/cloud.jpg" alt="The Last of us">
+				             </div>      
+		              
+		            </div>
+		          </div>
+		         </div>
+           </div>
+          </div>
+          </div>
           </div>
        </div>
     </div>

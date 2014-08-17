@@ -23,40 +23,38 @@
 
       <script type="text/javascript">
          $(document).ready(function(){
-			fixPicture();
+			//fixPicture();
          });
          
          $(window).resize(function(){
-			fixPicture();
+			//fixPicture();
          });
 
-         function fixPicture(){
-         	
-             var nWidth=$(window).width();   
-	         if(nWidth<768){
-	           $(".headerpic>img").attr("width",nWidth);
-	         }
-	         else{
-	           $(".headerpic>img").attr("width",Math.floor(nWidth*0.55)); 
-	         }
-         }
+        
       </script>
+      <style type="text/css">
+          .row{
+            margin-bottom: 100px;
+          }
+      </style>
    </head>
    <body>
    <?php require_once('navbar.php'); ?>
 
 
      <!--CONTENT -->
+     <div class="content">
+     <div style="max-width: 950px; margin: 0 auto;">
      <div class="containter">
      <div class="row headerstuff">
       
-        <div class="headerpic col-sm-6  ">
-          <img src="http://alldaycreative.co.uk/wp-content/themes/allday/images/new-slide-one.jpg"/>
+        <div class="headerpic col-sm-4  ">
+          <img src="../images/TeamImage.png" width="250" />
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-8">
             <div class="contentHolder" >
 				 <h1 >
-					Normal ist überbewertet
+					Нина Шутарева
 				 </h1>
 				 <p >
 				  Wir sind etwas besonderes!
@@ -65,6 +63,72 @@
         </div> 
        
       </div>
+      <div class="row headerstuff">
+      
+        <div class="headerpic col-sm-4  ">
+           <img src="../images/TeamImage.png" width="250" />
+        </div>
+        <div class="col-sm-8">
+            <div class="contentHolder" >
+         <h1 >
+          Мартин Тоневски
+         </h1>
+         <p >
+          Wir sind etwas besonderes!
+         </p>
+            </div>
+        </div> 
+       
+      </div>
+      <div class="row headerstuff">
+      
+        <div class="headerpic col-sm-4  ">
+           <img src="../images/TeamImage.png" width="250" />
+        </div>
+        <div class="col-sm-8">
+            <div class="contentHolder" >
+         <h1 >
+          Елена Бошковска
+         </h1>
+         <p >
+          Wir sind etwas besonderes!
+         </p>
+            </div>
+        </div> 
+       
+      </div>
+       <div class="row headerstuff">
+      
+        <div class="headerpic col-sm-4  ">
+           <img src="../images/TeamImage.png" width="250" />
+        </div>
+        <div class="col-sm-8">
+            <div class="contentHolder" >
+         <h1 >
+          Марлен
+         </h1>
+         <p >
+            Грофица Марлене фон Баден Буњаковец - Рецепција и однос со клиенти 
+         </p>
+            </div>
+        </div> 
+       
+      </div>
+      
+	  <div class="row headerstuff" style="padding-left: 3px; margin-left: 3px;">
+     <div >
+           <h1  style="font-family: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                       color: rgb(165,182,42);">
+          Надворешни соработници
+         </h1>
+         <p style="font-family: 'Bariol_Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                   color: #999;">
+          Им благодариме на сите надворешни преведувачи кои овозможија Летра Преводи да продолжи да работи експресно и квалитетно во изминативе години.  Им благодариме на Сања, Игор, Тања, Влатко, Надица, Јана, Тамара, Лиле, Маја, Вале, Адријана, Елена, Рената, Марија, Никола, Оливер, Ардиан, Блерина, Звездан и сите они ни излегле во пресрет со својата посветеност, страст и професионалност. 
+         </p>
+       </div>
+      </div>
+     </div>
+     </div>
      </div>
 
      <!-- FOOOTER-->

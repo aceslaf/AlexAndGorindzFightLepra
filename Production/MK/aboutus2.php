@@ -31,22 +31,31 @@
          });
 
          function fixPicture(){
-          var widthVrzHeight=2.13178294574; 
+          var widthVrzHeight=/*2.13178294574*/ 1; 
            var nWidth=$(window).width();   
-           if(nWidth<768){
+           if(nWidth<768){   //ZA MOBILNI NEKA GO ZAFAKJA CELL EKRAN
              $(".headerpic>img").attr("width",nWidth);
              return;
            }else{
+             //ZA GOLEMI EKRANI,
              var textHeight=$('.contentHolder').height(); 
              var paddT = $('.contentHolder').outerHeight() - textHeight;
              var neededPicWidth=widthVrzHeight*textHeight;
+             //AKO E VISOKA KOLKU TEKSTOT ARNO
                if(neededPicWidth<(nWidth/2)){
-                  $(".headerpic>img").attr("width",Math.floor(nWidth/2)); 
+                  $(".headerpic>img").attr("width",/*Math.floor(nWidth/2)*/neededPicWidth); 
                }else{
+                //AKO E PONISKA OD TEKSTOT NEKA  RASTE PO CENA DA NE SE GLEDA CELA
                    $(".headerpic>img").attr("width",neededPicWidth); 
-                   $(".headerpic").attr("padding-top",Math.floor(paddT/2)+"px");
+                  // $(".headerpic").attr("padding-top",Math.floor(paddT/2)+"px");
                }   
            }
+
+           var contentHeight = $(".contentHolder").innerHeight();
+          var slikaHeigt = parseInt($(".headerpic>img").css("height"));
+          if(contentHeight>slikaHeigt){
+            $(".headerpic>img").css("margin-bot",Math.floor((contentHeight-slikaHeigt)/2)+"px"); 
+          }
                                     
             
            
@@ -58,33 +67,44 @@
 
 
      <!--CONTENT -->
+     <div class="content">
+     <div style="max-width: 1150px; margin: 0 auto;">
      <div class="containter">
      <div class="row headerstuff">
       
         <div class="headerpic col-sm-6  ">
-          <img src="http://alldaycreative.co.uk/wp-content/themes/allday/images/new-slide-one.jpg"/>
+          <img src="http://upload.wikimedia.org/wikipedia/en/7/71/Deep-Magenta-Square%2C-1978.jpg"/>
         </div>
         <div class=" col-sm-6">
-          <div class="contentHolder" >
-				    <h3> Qualität</h3>
+          <div class="contentHolder prored" >
+				    <center><h3> Квалитет</h3></center>
             <p>
-                Die Hochwertigkeit, die LETRA Ihnen anbietet bekommen Sie nirgendwo sonst. Wir sind die besten in unserem Geschäft und das haben schon viele Klienten bezeugt. Suchen Sie nicht weiter, wenn sie eine professionelle, schnelle und hochwertige Übersetzung brauchen. Überzeugen Sie sich selbst von unseren Fachkenntnissen und Fertigkeiten.
+                Стручните студии, долгогодишните престои во 
+                странство, безбројните обуки и семинари ни дозволија да имаме задоволни клиенти со кои можеме да градиме длабоко искуство. 
+                Но, нашето учење никогаш не застанува. Бидејќи секој клиент е различен, така и секој превод, секоја терминологија и 
+                 документ имаат своја специфика. Нашиот личен пристап и посветеност кон Вас, го гарантира квалитетот на нашите услуги. 
            </p>
-
-            <h3>Schnelligkeit</h3>
+            <br/>
+            <center><h3>Брзина</h3></center>
             <p>
-              Brauchen Sie eine schnelle Übersetzung? Hier sind Sie richtig. STOP gibt es für uns nicht, genauso wenig wie UNMÖGLICH. Wir machen alles MÖGLICH, so SCHNELL wie MÖGLICH. Und das alles ohne an Qualität einbüßen zu müssen, so gut sind wir. Schneller als bei uns geht es nicht, fragen Sie nicht weiter. Die Konkurenz lügt.
+              Речениците како „ ми треба брзо“ и  „за вчера“ се нашето секојдневие. Како тим, ние сме ентузијасти кои сакаат предизвик. Ако се двоумите дали нешто „може“ или „не може да се изведе“, само обратете ни се. 
             </p>
 
-
-            <h3>Diskretion</h3>
+            <br/>
+            <center><h3>Дискреција</h3></center>
             <p>
-              Vertraulich? Kein problem, vertrauen Sie uns. Alle unsere mitarbeiter sind an eine Geheimhaltungsvereinbarung gebunden. Wir achten auf den Schutz Ihrer Daten und versichern sorgfältigen Umgang mit Ihren Dokumenten. Was bei LETRA passiert, bleibt bei LETRA.
+              Летра Преводи изјавува дека секоја кореспондеција со нас, без разлика дали
+               е формална или неформална, обврзувачка или информативна, писмена, електронска или усмена, се чува како настрога деловна тајна. 
+              Целиот тим на Летра Преводи има потпишано изјава за строга доверливост и чување деловна тајна, а самата компанија со задоволство 
+              е подготвена да ги потпише сите ваши изјави и договори за доверливост.  
             </p>
+            <br/>
           </div>
         </div> 
        
       </div>
+     </div>
+     </div>
      </div>
 
      <!-- FOOOTER-->

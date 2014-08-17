@@ -25,32 +25,43 @@
       <link rel="stylesheet" href="../owl-carousel/owl.carousel.css"> 
 	  <link rel="stylesheet" href="../owl-carousel/owl.theme.css">
 	  <script src="../owl-carousel/owl.carousel.js"></script>
-
+	  <script src="../js/contentHover.js"></script>
+      
 
       <script type="text/javascript">
          $(document).ready(function(){
 			fixPicture();
 			makeCarousel();
+			makeContentHover();
          });
          
          $(window).resize(function(){
 			fixPicture();
          });
+        
+        function makeContentHover(){
+              $('.contentNoHover').contenthover({
+              	  data_selector: '.contentHover',
+			      overlay_background:'#000',
+			      overlay_opacity:0.8
+			  });
+
+        }
 
         function fixPicture(){
            var widthVrzHeight=2.13178294574; 
            var nWidth=$(window).width();   
            if(nWidth<768){
-             $(".headerpic>img").attr("width",nWidth);
+             $(".headerpic img").attr("width",nWidth);
              return;
            }
             if(nWidth<1400){
-              $(".headerpic>img").attr("width",825);	
+              $(".headerpic img").attr("width",825);	
               return;
             }
 
             if(nWidth>=1400){
-               $(".headerpic>img").attr("width",Math.floor(nWidth*0.55));	
+               $(".headerpic img").attr("width",Math.floor(nWidth*0.55));	
               return;	
             }
           };    
@@ -80,7 +91,7 @@
 		      // itemsTablet: false,
 		      // itemsMobile : false
 		 
-		  });};               
+		    });};               
       </script>
       <style type="text/css">
           .item{
@@ -92,52 +103,94 @@
    <?php require_once('navbar.php'); ?>
 
 
-     <!--CONTENT -->
+     <!--CONTENT --><div class="content">
+     <div style="max-width: 1150px; margin: 0 auto;">
      <div class="containter">
      <div class="row headerstuff">
       
         <div class="headerpic col-sm-6  ">
+        <div class="contentNoHover">
           <img src="http://alldaycreative.co.uk/wp-content/themes/allday/images/new-slide-one.jpg"/>
+        </div>
+        <div class="contentHover">
+          <div class="item">
+	              
+					 <h1 class="fancyTitleFont colorGreen" style="
+                                font-family: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                                color: rgb(165,182,42);
+                                text-align: center;" >
+						Mislam deka naslov e pozelen
+					 </h1>
+					 <p class="defaultFont"  style="font-family: "Bariol_Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                color: #999;
+                                text-align: justify; ">
+					 Летра Преводи дооел Скопје е агенција специјализирани за преводи и толкување. Нудиме стручни и судски преводи и конференциско толкување. Специјализирание сме за германски, шпански и англиски јазик, но погледнете ги и другите јазици и услуги кои ги нудиме.
+					 </p>
+				   </div>
+           </div>
+          
         </div>
         <div class="col-sm-6 .defaultFont">
             <div class="contentHolder bigMessage" >
 			 <div id="owl-demo" class="owl-carousel owl-theme" >
 	               <div class="item">
 	              
-					 <h1 class="fancyTitleFont colorGreen" >
-						Normal ist überbewertet
+					 <h1 class="fancyTitleFont colorGreen"  >
+						Übersetzungen
 					 </h1>
-					 <p class="defaultFont">
-					  Wir sind etwas besonderes!
+					 <p class="defaultFont"
+					    >
+					 Sie haben Fernweh oder Reiselust? Oder Sie arbeiten oft mit dem Ausland?
 					 </p>
 				   </div>	 
 				   <div class="item">
-	                  
-	                  <p class="defaultFont">
-					  „Wenn Du mit einem Menschen eine Sprache sprichst die er versteht, erreichst Du seinen Kopf (Verstand). Wenn Du mit ihm in seiner Sprache sprichst, erreichst Du sein Herz.‟ 
-					 </p>
-					 <h1 class="fancyTitleFont colorGreen">
-						-Nelson Mandela
+	                   <h1 class="fancyTitleFont colorGreen">
+						Letra Übersetzungen
 					 </h1>
+	                  <p class="defaultFont">
+					  Sie gedenken in Mazedonien geschäftlich tätig zu sein?
+					 </p>
+					
 					 
 				   </div>	 
 				   <div class="item">
 	              
 					 <h1 class="fancyTitleFont colorGreen">
-						Pure awesomeness
+						Sie verreisen oder übersiedeln und benötigen plötzlich eine Reihe von Dokumenten?
 					 </h1>
-					 <p class="defaultFont">
+					<!--  <p class="defaultFont">
 					 in 12 diferent languages
-					 </p>
+					 </p> -->
 
 				   </div>	 
+				   <div class="item">
+	              
+					 <h1 class="fancyTitleFont colorGreen">
+						 Sie organisieren internationale Konferenzen und Events?
+					 </h1>
+					<!--  <p class="defaultFont">
+					
+					 </p> -->
+
+				   </div>
+				   <div class="item">
+	              
+					 <h1 class="fancyTitleFont colorGreen">
+						Sie sind hier richtig.
+					 </h1>
+					<!--  <p class="defaultFont">
+					
+					 </p> -->
+
+				   </div>
 
             </div>
         </div> 
        
       </div>
      </div>
-
+   </div>
+   </div>
      <!-- FOOOTER-->
 	 <div class="footer /*bggreen */">	 
 			 <div class="container">
