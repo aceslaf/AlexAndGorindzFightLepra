@@ -11,12 +11,12 @@
       if((nWidth>=768)&&(nWidth<992)){             
         $("#bigmenu").show();
         $("#nava").hide();
-        $(".logoimg").css("left", (nWidth-10)/2 + "px");
+        //$(".logoimg").css("left", (nWidth-10)/2 + "px");
         return;
       }else {
         $("#bigmenu").show();
         $("#nava").hide();
-        $(".logoimg").css("left", (nWidth-125)/2 + "px");
+        //$(".logoimg").css("left", (nWidth-125)/2 + "px");
 
       }        
    };           
@@ -43,9 +43,10 @@
   <div class="stripe">
   <div class="container">
      <div id="bigmenu">
-        <img src="../images/logo1.png" class="logoimg"/>
-        <div class="navbar-collapse collapse">
-           <ul class="nav navbar-nav bigmenu">
+        <div class="navbar-collapse collapse" style="position: relative;">
+
+        <img src="../images/logo1EN.png" class="logoimg"/>
+           <ul class="nav navbar-nav navbar-right bigmenu">
               <li class="active"><a href="index.php">Home</a></li>
               <li class="dropdown">
                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">About ussr <b class="caret"></b></a>
@@ -57,9 +58,8 @@
               </li>
               <li><a href="services.php" >Services</a></li>
               <li><a href="galery.php" style="background-image:none">Galery</a></li>
-           </ul>
-           <ul class="nav navbar-nav navbar-right bigmenu" style="margin-right:-5px">
-              <li><a href="contact.php" style="background-color: rgb(165,182,42) !important; background-image:none;">Contact</a></li>
+                 <li><a href="contact.php" style="background-color: rgb(165,182,42) !important; background-image:none;">Contact</a></li>
+           
            </ul>
         </div>
      </div>

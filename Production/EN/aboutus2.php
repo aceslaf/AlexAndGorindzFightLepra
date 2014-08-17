@@ -31,22 +31,31 @@
          });
 
          function fixPicture(){
-          var widthVrzHeight=2.13178294574; 
+          var widthVrzHeight=/*2.13178294574*/ 1; 
            var nWidth=$(window).width();   
-           if(nWidth<768){
+           if(nWidth<768){   //ZA MOBILNI NEKA GO ZAFAKJA CELL EKRAN
              $(".headerpic>img").attr("width",nWidth);
              return;
            }else{
+             //ZA GOLEMI EKRANI,
              var textHeight=$('.contentHolder').height(); 
              var paddT = $('.contentHolder').outerHeight() - textHeight;
              var neededPicWidth=widthVrzHeight*textHeight;
+             //AKO E VISOKA KOLKU TEKSTOT ARNO
                if(neededPicWidth<(nWidth/2)){
-                  $(".headerpic>img").attr("width",Math.floor(nWidth/2)); 
+                  $(".headerpic>img").attr("width",/*Math.floor(nWidth/2)*/neededPicWidth); 
                }else{
+                //AKO E PONISKA OD TEKSTOT NEKA  RASTE PO CENA DA NE SE GLEDA CELA
                    $(".headerpic>img").attr("width",neededPicWidth); 
-                   $(".headerpic").attr("padding-top",Math.floor(paddT/2)+"px");
+                  // $(".headerpic").attr("padding-top",Math.floor(paddT/2)+"px");
                }   
            }
+
+           var contentHeight = $(".contentHolder").innerHeight();
+          var slikaHeigt = parseInt($(".headerpic>img").css("height"));
+          if(contentHeight>slikaHeigt){
+            $(".headerpic>img").css("margin-bot",Math.floor((contentHeight-slikaHeigt)/2)+"px"); 
+          }
                                     
             
            
@@ -58,33 +67,44 @@
 
 
      <!--CONTENT -->
+     <div class="content">
+     <div style="max-width: 1150px; margin: 0 auto;">
      <div class="containter">
      <div class="row headerstuff">
       
         <div class="headerpic col-sm-6  ">
-          <img src="http://alldaycreative.co.uk/wp-content/themes/allday/images/new-slide-one.jpg"/>
+          <img src="http://upload.wikimedia.org/wikipedia/en/7/71/Deep-Magenta-Square%2C-1978.jpg"/>
         </div>
         <div class=" col-sm-6">
-          <div class="contentHolder" >
-				    <h3> Qualität</h3>
+          <div class="contentHolder prored" >
+				    <center><h3> Quality</h3></center>
             <p>
-                Die Hochwertigkeit, die LETRA Ihnen anbietet bekommen Sie nirgendwo sonst. Wir sind die besten in unserem Geschäft und das haben schon viele Klienten bezeugt. Suchen Sie nicht weiter, wenn sie eine professionelle, schnelle und hochwertige Übersetzung brauchen. Überzeugen Sie sich selbst von unseren Fachkenntnissen und Fertigkeiten.
+               All the studies abroad, countless training and seminars made it possible to please our clients that have placed their trust in our abilities.
+               Nevertheless, we shall continue to learn for as long as we live. In reality, every client is different, so is every translation, 
+               every terminology and every document that goes with it. Our approach and dedication to you, the client, guarantees the quality of our services.
            </p>
-
-            <h3>Schnelligkeit</h3>
+            <br/>
+            <center><h3>On-time delivery and swiftness</h3></center>
             <p>
-              Brauchen Sie eine schnelle Übersetzung? Hier sind Sie richtig. STOP gibt es für uns nicht, genauso wenig wie UNMÖGLICH. Wir machen alles MÖGLICH, so SCHNELL wie MÖGLICH. Und das alles ohne an Qualität einbüßen zu müssen, so gut sind wir. Schneller als bei uns geht es nicht, fragen Sie nicht weiter. Die Konkurenz lügt.
+              Our daily habitat consists of commands such as "I need it fast" and "I need it right this instant".
+               As a team, we consider ourselves enthusiasts that thrive 
+              on challenge. If you are in doubt whether something "can" or "cannot be done", do not hesitate to call us.
             </p>
 
-
-            <h3>Diskretion</h3>
+            <br/>
+            <center><h3>Discretion</h3></center>
             <p>
-              Vertraulich? Kein problem, vertrauen Sie uns. Alle unsere mitarbeiter sind an eine Geheimhaltungsvereinbarung gebunden. Wir achten auf den Schutz Ihrer Daten und versichern sorgfältigen Umgang mit Ihren Dokumenten. Was bei LETRA passiert, bleibt bei LETRA.
+              Letra Prevodi declares that any concluded business with us, be it formal or informal,
+               binding or informative, written, electronic or spoken, will be classified and confidential.
+               Every single team member of Letra Prevodi has signed a non-disclosure agreement and the company itself is willing to sign all your non-disclosure agreements.
             </p>
+            <br/>
           </div>
         </div> 
        
       </div>
+     </div>
+     </div>
      </div>
 
      <!-- FOOOTER-->

@@ -38,14 +38,49 @@
          }
         </style>
         <script>
-              $(function() {
-                $( ".acrd" ).accordion({
-                  collapsible: true,
-                active:false,
-                icons:false,
-                heightStyle: "content"
-                });
-              });
+               var mobileScreen=true;
+               var accordions=new Object();
+               $(document).ready(function(){
+				  var windowWidth=$(window).width(); 
+                  mobileScreen=(windowWidth<768);
+                  
+                  makeAccordion(mobileScreen);              	  
+              	});              
+               
+              
+
+
+              var makeAccordion=function(isMobile) {
+              	var settings;
+               	if(isMobile){// MOBILE SCREEN
+               		settings={
+		                collapsible: true,
+		                active:false,
+		                icons:false,
+		                heightStyle: "content",
+                        autoHeight: false,
+                        clearStyle: true, 
+	                }	                
+                }else{// LARGE SCREEN
+                	settings={};
+                }
+
+                
+                accordions[0]=$( ".acrd0" ).accordion(settings);                 
+                accordions[1]=$( ".acrd1" ).accordion(settings);
+              };
+              var acordionClick=function(isMobile,acrNum){
+                         if(!isMobile){
+                             return;
+                         }
+                         //calculate other acordion
+                         var other= 1 - acrNum; 
+                         
+                         accordions[other].accordion("option","active",false);
+
+
+
+              };
         </script>
 
 
@@ -97,67 +132,97 @@
           font-size: 18px;
           font-weight: bold;
           margin-bottom: 10px;
+          text-align: center
         }
 
      </style>
+     <div class="content">
+     <div style="max-width: 1150px; margin: 0 auto;">
      <div class="row">
-        <div class="uslugiimg"><img src="../images/uslugi.png"/></div>
+        <!-- <div class="uslugiimg"><img src="../images/uslugi.png"/></div> -->
         <div class="col-sm-6  ">
            <div class="uslugatitle">Pismen prevod</div>    
-           <div class="acrd">
-                  <h3 style="border: none; border-radius: 0;">Beglaubigte Übersetzung</h3>
+           <div class="acrd acrd0">
+                  <h3 style="border: none; border-radius: 0;" onclick="acordionClick(mobileScreen,0)">Authorized translations</h3>
                   <div>
                     <p>
-                    Sollten Sie eine von einem staatlich geprüften Übersetzer beglaubigte Übersetzung brauchen, die Rechtsgültigkeit hat, dann sind Sie bei uns an der richtigen Adresse. 
-                    Wir sind  für beglaubigte Übersetzungen in zahlreichen Sprachen zugelassen, vor allem in Deutsch, Englisch, Spanisch und Mazedonisch.
-                    Wenn Sie einen solchen Service in anderen Sprachen benötigen, verfügen wir über ein breites Netzwerk an staatlich geprüften Übersetzern in allen Sprachen und Branchen.
+                    If the translation needs to be presented to state bodies or notaries, then you require a translation by an accredited translator.
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    
+
                     </p>
                   </div>
 
-                  <h3>Eilaufträge</h3>
+                  <h3 onclick="acordionClick(mobileScreen,0)" >On-time translations</h3>
                   <div>
-                    <p>Da LETRA auch Schnelligkeit bedeutet, sind Sie an der richtigen Stelle für Übersetzungen in kürzester Zeit. 
-                       Wir übersetzen Ihre amtlichen Dokumente vor Ihren Augen und Sie können Sie sofort mitnehmen. 
-                       Einzelne Dokumente in Länge von 100 bis 200 Wörtern können von unseren Mitarbeitern in ca. 30 bis 60 Minuten fertiggestellt werden. 
+                    <p>Sometimes even the best planning can lead to unpredictable circumstances that require you to react fast and efficiently. 
+                       For that reason, our team is completely fexible and dedicated.
+                       Regardless whether you need a certified translation or not, feel free to contact us.
                     </p>
                   </div>
 
-                  <h3>Lokalisierung von Internetseiten </h3>
+                  <h3 onclick="acordionClick(mobileScreen,0)">Software and web-page localization </h3>
                   <div>
                     <p>
-                       Heutzutage ist es für Unternehmen wichtig sich überall auf der Welt vorstellen zu können, natürlich über das Internet und im Idealfall in der Sprache des Landes, 
-                       in dem man sich präsentieren möchte. So ist es von äußerster Wichtigkeit eine Internetseite lokaliesieren lassen zu können. 
-                   </p>                    
+						Software and web-page localization is a discipline of its own, and as such requires knowledge of artificial languages, software structure and function, the culture into 
+						which the product is localized along with the behavior and habits of certain target groups. This type of translation gives us great pleasure, as 
+						we are part of the new-generation that views the world in ones-and-zeros and can barely wait to connect one or 
+						more cultures together as well as the people and products from all around the world through the Internet. 
+				    </p>                    
+                  </div>
+
+                  <h3 onclick="acordionClick(mobileScreen,0)">Consulting </h3>
+                  <div>
+                    <p>
+						Thanks to our vast experience, we are at your disposal for advice such as:
+						information regarding needed documentation that regulates foreign stay permit or for foreigners staying in Macedonia
+						general non-binding information for the current legal regulations in Macedonia and in german-speaking countries, especially in the field of trading and corporative law
+				    </p>                    
                   </div>
                   
           </div>
         </div>
         <div class="col-sm-6">
           <div class="uslugatitle">Interpretirawe</div>    
-          <div class="acrd">
-                  <h3 style="border: none; border-radius: 0;">Dolmetschen</h3>
+          <div class="acrd acrd1">
+                  <h3 style="border: none; border-radius: 0;" onclick="acordionClick(mobileScreen,1)">Interpreting</h3>
                   <div>
                     <p>
-                       Langjährige Erfahrung und Kenntnisse zeichnen LETRA auch im bereich des Dolmetschen aus. Wenn wir dolmetschen, können die anderen nur gucken.
-                        Lehnen Sie sich zurück und stören Sie sich nicht damit, eine fremde Sprache verstehen zu müssen. Das machen wir für Sie.
-                       onferenzen, Sitzungen, Versammlungen, Tagungen und sonstige Veranstalltungen - wir sind immer dort, wo Sie uns brauchen und geben 130%. Unsere Kompetenzen stehen Ihnen stehts zu Diensten. 
-                       Wir dolmetschen aus dem Deutschen, Englischen und Spanischen ins Mazedonische, sowie umgekehrt.   
+                       Interpreting is a form of translation, the only difference is that it is spoken and it's used at conferences, seminars, training lectures or in the inner circles such as meetings, negotiations etc.
+                       <br/>
+                       <br/>
+                       <br/>
+                       <br/>
+                       <br/>
+                       <br/>
+                       <br/>
+                       
+
                    </p>
                   </div>
-                  <h3>Simultandolmetschen</h3>
+                  <h3 onclick="acordionClick(mobileScreen,1)">Simultaneous</h3>
                   <div>
                     <p>
-                        Beim Simultandolmetschen findet die Verdolmetschung zeitgleich mit dem Redner   statt.
-                        Als Dolmetscher arbeiten wir zu zweit oder sogar zu dritt in einer   Dolmetscherkabine für jede gedolmetschte Sprache und wir wechseln uns   regelmäßig ab.
-                        Diese Art des Dolmetschens ist die gebräuchlichste und wird  insbesondere bei Mehrsprachigen Konferenzen, Kongressen, Pressekonferenzen  und Fernsehsendungen verwendet.
+                        Simultaneous interpreting requires a minumum of two persons and a booth for a single language combination
                     </p>
                   </div>
-                  <h3>Konsekutivdolmetschen</h3>
+                  <h3 onclick="acordionClick(mobileScreen,1)">Consecutive</h3>
                   <div>
                     <p>
-                      Hier trägt der Redner größere inhaltlich zusammenhängende Passagen seiner   Ansprache ohne Unterbrechung vor und wir verdolmetschung unmittelbar im   Anschluss. 
-                      Konsekutivdolmetschen erfordert einen geringen technischen Aufwand, ein   Mikrofon ist reicht vollkommen aus und ist daher äußerst praktisch. 
+                      Consecutive interpreting does not require a booth, but bear in mind that your event may last twice as long due to the alternating speakers.
                     </p>                    
+                  </div><h3 onclick="acordionClick(mobileScreen,1)">Community interpreting</h3>
+                  <div>
+                    <p>
+                         Interpreting during meetings, negotiations, on site interpreting etc.
+                     </p>                    
                   </div>
                   
           </div>  
@@ -185,6 +250,8 @@
           </div>
         </div> -->
        </div> 
+       </div>
+      </div>
       </div>
      </div>
      
@@ -202,7 +269,7 @@
 
      <!-- FOOOTER-->
         <!-- FOOOTER-->
-   <div class="footer /* bggreen*/ ">   
+   <div class="footer  /*bggreen*/ " style="border-top: none;">   
        <div class="container">
          <p>@Letra 2014</p>
        </div>
