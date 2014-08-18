@@ -136,19 +136,19 @@
 	               <div class="item">
 	              
 					 <h1 class="fancyTitleFont colorGreen"  >
-						Übersetzungen
+						Летра преводи
 					 </h1>
 					 <p class="defaultFont"
 					    >
-					 Sie haben Fernweh oder Reiselust? Oder Sie arbeiten oft mit dem Ausland?
+					 Работите со странски клиенти?
 					 </p>
 				   </div>	 
 				   <div class="item">
 	                   <h1 class="fancyTitleFont colorGreen">
-						Letra Übersetzungen
+						Летра - фабрика за преводи
 					 </h1>
 	                  <p class="defaultFont">
-					  Sie gedenken in Mazedonien geschäftlich tätig zu sein?
+					  Доаѓате од странство и сакате да започнете бизнис во Македонија?
 					 </p>
 					
 					 
@@ -156,27 +156,27 @@
 				   <div class="item">
 	              
 					 <h1 class="fancyTitleFont colorGreen">
-						Sie verreisen oder übersiedeln und benötigen plötzlich eine Reihe von Dokumenten?
+						 Летра преводи
 					 </h1>
-					<!--  <p class="defaultFont">
-					 in 12 diferent languages
-					 </p> -->
+					 <p class="defaultFont">
+					    Одите во друга држава и потребна Ви е обемна документација?
+					 </p>
 
 				   </div>	 
 				   <div class="item">
 	              
 					 <h1 class="fancyTitleFont colorGreen">
-						 Sie organisieren internationale Konferenzen und Events?
+						 Летра преводи
 					 </h1>
-					<!--  <p class="defaultFont">
-					
-					 </p> -->
+					  <p class="defaultFont">
+					     Организирате меѓународни настани и конференции?
+					 </p> 
 
 				   </div>
 				   <div class="item">
 	              
 					 <h1 class="fancyTitleFont colorGreen">
-						Sie sind hier richtig.
+						На вистинското место сте.
 					 </h1>
 					<!--  <p class="defaultFont">
 					

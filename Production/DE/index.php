@@ -132,7 +132,7 @@
         </div>
         <div class="col-sm-6 .defaultFont">
             <div class="contentHolder bigMessage" >
-			 <div id="owl-demo" class="owl-carousel owl-theme" >
+			<div id="owl-demo" class="owl-carousel owl-theme" >
 	               <div class="item">
 	              
 					 <h1 class="fancyTitleFont colorGreen"  >
@@ -156,21 +156,21 @@
 				   <div class="item">
 	              
 					 <h1 class="fancyTitleFont colorGreen">
-						Sie verreisen oder übersiedeln und benötigen plötzlich eine Reihe von Dokumenten?
+						 Letra Übersetzungen
 					 </h1>
-					<!--  <p class="defaultFont">
-					 in 12 diferent languages
-					 </p> -->
+					 <p class="defaultFont">
+					    Sie verreisen oder übersiedeln und benötigen plötzlich eine Reihe von Dokumenten?
+					 </p>
 
 				   </div>	 
 				   <div class="item">
 	              
 					 <h1 class="fancyTitleFont colorGreen">
-						 Sie organisieren internationale Konferenzen und Events?
+						 Letra Übersetzungen 
 					 </h1>
-					<!--  <p class="defaultFont">
-					
-					 </p> -->
+					  <p class="defaultFont">
+					      Sie organisieren internationale Konferenzen und Events?
+					 </p> 
 
 				   </div>
 				   <div class="item">

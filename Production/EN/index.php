@@ -138,31 +138,31 @@
 	               <div class="item">
 	              
 					 <h1 class="fancyTitleFont colorGreen"  >
-						Are foreign clients welcome?
+						  Letra
 					 </h1>
-					 <!-- <p class="defaultFont"
+					 < <p class="defaultFont"
 					    >
-					 Sie haben Fernweh oder Reiselust? Oder Sie arbeiten oft mit dem Ausland?
-					 </p> -->
+					 Are foreign clients welcome?
+					 </p> 
 				   </div>	 
 				   <div class="item">
 	                   <h1 class="fancyTitleFont colorGreen">
-						Considering starting a venture business in Macedonia?
+						Letra translation
 					 </h1>
-	                 <!--  <p class="defaultFont">
-					  Sie gedenken in Mazedonien geschäftlich tätig zu sein?
-					 </p> -->
+	                   <p class="defaultFont">
+					  Considering starting a venture business in Macedonia?
+					 </p> 
 					
 					 
 				   </div>	 
 				   <div class="item">
 	              
 					 <h1 class="fancyTitleFont colorGreen">
-						Travelling to another country and you suddenly have tons of documents?
+						Letra the translation factory
 					 </h1>
-					<!--  <p class="defaultFont">
-					 in 12 diferent languages
-					 </p> -->
+					 <p class="defaultFont">
+					 Travelling to another country and you suddenly have tons of documents?
+					 </p> 
 
 				   </div>	 
 				   <div class="item">
