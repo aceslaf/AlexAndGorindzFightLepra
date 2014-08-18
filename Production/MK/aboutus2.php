@@ -24,6 +24,7 @@
       <script type="text/javascript">
          $(document).ready(function(){
 			               fixPicture();
+                     setTimeout( "$(window).trigger('resize');",50 );
          });
          
          $(window).resize(function(){
@@ -73,7 +74,8 @@
      <div class="row headerstuff">
       
         <div class="headerpic col-sm-6  ">
-          <img src="http://upload.wikimedia.org/wikipedia/en/7/71/Deep-Magenta-Square%2C-1978.jpg"/>
+          <!-- <img src="http://upload.wikimedia.org/wikipedia/en/7/71/Deep-Magenta-Square%2C-1978.jpg"/> -->
+          <img src="../images/apstrakt.png"/>
         </div>
         <div class=" col-sm-6">
           <div class="contentHolder prored" >
