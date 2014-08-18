@@ -16,3 +16,7 @@ TODO:
 	 
 14. LOC: all
      - Testiranje na site linkovi
+	 
+15. LOC: index
+     - Remove content hover
+ 	 
