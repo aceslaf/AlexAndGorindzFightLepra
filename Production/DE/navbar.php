@@ -47,18 +47,18 @@
 
         <img src="../images/logo1EN.png" class="logoimg"/>
            <ul class="nav navbar-nav navbar-right bigmenu">
-              <li class="active"><a href="index.php">Home</a></li>
+              <li class="active"><a href="index.php">Startseite</a></li>
               <li class="dropdown">
-                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">About ussr <b class="caret"></b></a>
+                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Über uns<b class="caret"></b></a>
                  <ul class="dropdown-menu">
-                    <li><a href="aboutus1.php">Languages</a></li>
-                    <li><a href="aboutus2.php">Who we are</a></li>
-                    <li><a href="aboutus3.php">Team</a></li>
+                    <li><a href="aboutus1.php">Sprachen</a></li>
+                    <li><a href="aboutus2.php">Unsere Übersetzungen</a></li>
+                    <li><a href="aboutus3.php">Die Übersetzer</a></li>
                  </ul>
               </li>
-              <li><a href="services.php" >Services</a></li>
-              <li><a href="galery.php" style="background-image:none">Galery</a></li>
-                 <li><a href="contact.php" style="background-color: rgb(165,182,42) !important; background-image:none;">Contact</a></li>
+              <li><a href="services.php" >Dienstleistungen</a></li>
+              <li><a href="galery.php" style="background-image:none">Galerie</a></li>
+                 <li><a href="contact.php" style="background-color: rgb(165,182,42) !important; background-image:none;">Kontakt </a></li>
            
            </ul>
         </div>
@@ -80,18 +80,18 @@
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                  <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.php" class="activelink">Home</a></li>
+                    <li><a href="index.php" class="activelink">Startseite</a></li>
                     <li class="dropdown open">
-                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">About us <b class="caret"></b></a>
+                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Über uns<b class="caret"></b></a>
                        <ul class="dropdown-menu">
-							<li><a href="aboutus1.php">Languages</a></li>
-							<li><a href="aboutus2.php">What we do</a></li>							
-							<li><a href="aboutus3.php">Team</a></li>
+							<li><a href="aboutus1.php">Sprachen</a></li>
+							<li><a href="aboutus2.php">Unsere Übersetzungen</a></li>							
+							<li><a href="aboutus3.php">Die Übersetzer</a></li>
                        </ul>
                     </li>
-                    <li><a href="services.php">Services</a></li>
-                    <li><a href="galery.php">galery</a></li>
-                    <li><a href="contact.php" style="background-color: rgb(165,182,42) !important; background-image:none;">Contact</a></li>
+                    <li><a href="services.php">Dienstleistungen</a></li>
+                    <li><a href="galery.php">Galerie</a></li>
+                    <li><a href="contact.php" style="background-color: rgb(165,182,42) !important; background-image:none;">Kontakt</a></li>
                  </ul>
               </div>
               <!-- /.navbar-collapse -->

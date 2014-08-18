@@ -49,15 +49,15 @@
            <ul class="nav navbar-nav navbar-right bigmenu">
               <li class="active"><a href="index.php">Home</a></li>
               <li class="dropdown">
-                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">About ussr <b class="caret"></b></a>
+                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">About us<b class="caret"></b></a>
                  <ul class="dropdown-menu">
                     <li><a href="aboutus1.php">Languages</a></li>
-                    <li><a href="aboutus2.php">Who we are</a></li>
-                    <li><a href="aboutus3.php">Team</a></li>
+                    <li><a href="aboutus2.php">Our translations</a></li>
+                    <li><a href="aboutus3.php">The translators </a></li>
                  </ul>
               </li>
               <li><a href="services.php" >Services</a></li>
-              <li><a href="galery.php" style="background-image:none">Galery</a></li>
+              <li><a href="galery.php" style="background-image:none">Gallery</a></li>
                  <li><a href="contact.php" style="background-color: rgb(165,182,42) !important; background-image:none;">Contact</a></li>
            
            </ul>
@@ -85,12 +85,12 @@
                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About us <b class="caret"></b></a>
                        <ul class="dropdown-menu">
 							<li><a href="aboutus1.php">Languages</a></li>
-							<li><a href="aboutus2.php">What we do</a></li>							
-							<li><a href="aboutus3.php">Team</a></li>
+							<li><a href="aboutus2.php">Our translations</a></li>							
+							<li><a href="aboutus3.php">The translators </a></li>
                        </ul>
                     </li>
                     <li><a href="services.php">Services</a></li>
-                    <li><a href="galery.php">galery</a></li>
+                    <li><a href="galery.php">Gallery</a></li>
                     <li><a href="contact.php" style="background-color: rgb(165,182,42) !important; background-image:none;">Contact</a></li>
                  </ul>
               </div>
