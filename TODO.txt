@@ -1,48 +1,5 @@
 TODO:
 
-1. LOC: aboutUs1,2 index    DONE
-   -slikata i textot da imaat vertikalno centralno poramnuvanje 
-   
-2. LOC: all    DONE              
-   -da se napravi container na stranata shto kje ja drzi max with 920px. Da ne se shiri povekje od toa
-   
-3. LOC: aboutus1,2 - GORDZ DONE
-   -da se zgolemi proredot
-   -naslovite da se stavat centralno nameto levo pormantei
-
-4. LOC: contact - GORDZ DONE
-   -da se napravi prostor pomegju "telefon:" i brojkata (moze da se zgolemi prored)
-   -da se bapne pull-left na isprati kopcheto 
-   -da se dodade "Se obvrzuvame na diskrecija   za sekoj praten mejl" desno od kopcheto
-   -ako nema da se dodade proverka dali e popunet sender koga se rpakja
-
-5. LOC: services: DONE author: Ace
-   - da nema slika, ili dokolku ima da ne e so kocki naveduva na klikanje
-   -da se napravi da ima pod default otvoren edena uzluga i da se napravat i dvete da zafakjaat isto za golemi ekrani
-   -da se ostavat kako shto se za mali ekrani 
-   -za mali ekrani ako se stisne na uslugi2 da se zatvorat uslugi1
-
-6. LOC: navbar  - GORDZ DONE
-   -nov raspored na kopchinja logoto levo celata navigacija desno poramneta, ostanat izgled: nepromenet
-   -da napravime novo logo letra translations namesto летра преводи
-   -da se zgolemi logoto (optional da vidime kako kje ni se svigja imam hq slika za ova)   
-   
-7. LOC: all Neka se ebe, ova na lice mesto
-   -povekje font varijanti (mal prioritet moze da ostane na kraj) 
-   
-8. LOC: abortus3 DONE
-   -da se napravi team stranica so mesto za povekje team memeberi od tipot slika, text   
-
-8. LOC: pinkPanter - GORDZ DONE
-   -todo
-   -todo
-   -todotodotodo
-   -todotodooooooooooo
-   -tararamrarm
-   -tamtamtamtam
-   -todododo   
-   -pamPAM!
-
  9. Irena Ljubik Kade: Na masa author GORDZ, IMA DECKO AMA NEMA PROBLEM
      -ramdagadam
      -https://www.youtube.com/watch?v=FLA1Su3sdIU
@@ -52,11 +9,10 @@ TODO:
 	 -Tijana me nejkje, ali treba da ja upoznaeme :D
 	 -ali sepak: http://vimeo.com/63277960
 11. LOC: all 
-    -Da se trgnat nepotrebni scripti i ostatoci od copy paste
-	 
-	 
-12. LOC: aboutus2 DONE
-    - BUG, dodadi mn tekst i width na slikata ke zabega epten, neso so toa widthVrzHeight=2.13178294574 da ne se ebe?
-	  FIXED, it isn't a bug, it's a feature! Toa 2,blabla e ustvari aspect ratioto na slikata. So kockasti sliki nema gajle :DECKO
+    -Da se trgnat nepotrebni scripti i ostatoci od copy paste	 
+
 13. LOC: aboutus2, 10
      -BUG otvori ja i stisni refresh edno 10-15 pati. Poleka. Ne odma. See what happens :D.	  
+	 
+14. LOC: all
+     - Testiranje na site linkovi
