@@ -112,7 +112,7 @@
         <div class="contentNoHover">
           <img src="http://alldaycreative.co.uk/wp-content/themes/allday/images/new-slide-one.jpg"/>
         </div>
-        <div class="contentHover">
+       <!--  <div class="contentHover">
           <div class="item">
 	              
 					 <h1 class="fancyTitleFont colorGreen" style="
@@ -129,7 +129,7 @@
                             So, why don't you ruminate, whilst we illuminate the possibilities.					 
                      </p>
 				   </div>
-           </div>
+           </div> -->
           
         </div>
         <div class="col-sm-6 .defaultFont">

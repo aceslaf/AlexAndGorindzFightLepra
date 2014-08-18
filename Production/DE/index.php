@@ -112,7 +112,7 @@
         <div class="contentNoHover">
           <img src="http://alldaycreative.co.uk/wp-content/themes/allday/images/new-slide-one.jpg"/>
         </div>
-        <div class="contentHover">
+        <!-- <div class="contentHover">
           <div class="item">
 	              
 					 <h1 class="fancyTitleFont colorGreen" style="
@@ -127,7 +127,7 @@
 					 Letra Translations ist Ihr Übersetzungsbüro in Mazedonien. Fachübersetzungen, beglaubigte Dokumenten, Konferenzdolmetschen -wir sind spezialisiert für Deutsch, English, Spanisch und Mazedonisch, aber sehen Sie sich die anderen Sprachkombinationen die wir anbieten.
 					 </p>
 				   </div>
-           </div>
+           </div> -->
           
         </div>
         <div class="col-sm-6 .defaultFont">

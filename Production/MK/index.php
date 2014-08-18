@@ -112,7 +112,7 @@
         <div class="contentNoHover">
           <img src="http://alldaycreative.co.uk/wp-content/themes/allday/images/new-slide-one.jpg"/>
         </div>
-        <div class="contentHover">
+       <!--  <div class="contentHover">
           <div class="item">
 	              
 					 <h1 class="fancyTitleFont colorGreen" style="
@@ -127,7 +127,7 @@
 					 Летра Преводи дооел Скопје е агенција специјализирани за преводи и толкување. Нудиме стручни и судски преводи и конференциско толкување. Специјализирание сме за германски, шпански и англиски јазик, но погледнете ги и другите јазици и услуги кои ги нудиме.
 					 </p>
 				   </div>
-           </div>
+           </div> -->
           
         </div>
         <div class="col-sm-6 .defaultFont">
