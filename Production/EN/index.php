@@ -140,7 +140,7 @@
 					 <h1 class="fancyTitleFont colorGreen"  >
 						  Letra
 					 </h1>
-					 < <p class="defaultFont"
+					  <p class="defaultFont"
 					    >
 					 Are foreign clients welcome?
 					 </p> 
