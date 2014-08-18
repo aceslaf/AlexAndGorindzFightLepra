@@ -32,7 +32,7 @@
          $(document).ready(function(){
 			fixPicture();
 			makeCarousel();
-			makeContentHover();
+			//makeContentHover();
          });
          
          $(window).resize(function(){
