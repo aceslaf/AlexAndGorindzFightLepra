@@ -110,7 +110,8 @@
       
         <div class="headerpic col-sm-6  ">
         <div class="contentNoHover">
-          <img src="http://alldaycreative.co.uk/wp-content/themes/allday/images/new-slide-one.jpg"/>
+          <!-- <img src="http://alldaycreative.co.uk/wp-content/themes/allday/images/new-slide-one.jpg"/> -->
+          <img src="../images/naslovnaSmall.jpg"/> 
         </div>
         <!-- <div class="contentHover">
           <div class="item">

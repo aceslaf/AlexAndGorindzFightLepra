@@ -57,7 +57,7 @@
 					Nina Shutareva
 				 </h1>
 				 <p >
-				  Wir sind etwas besonderes!
+				 Gründerin von Letra Translations. EU- akkreditierte Dolmetscherin aus dem Deutschen und Englischen ins Mazedonische. OSZE akkreditierte Übersetzerin für Englisch und Mazedonisch; Gerichtsdolmetscherin für Englisch, Deutsch, Spanisch und Mazedonisch; Diplom-Übersetzerin von der Ruprecht-Karls-Universität in Heidelberg für A: Deutsch, B: Englisch; C: Spanisch,  Fachspezialisierung:Elektrotechnik und IT; Wissenschaftliche Mitarbeiterin am Lehrstuhl für Übersetzen und Dolmetschen der Universität in Skopje für die Fächer: Übersetzen aus dem Mazedonischen ins Deutsche und umgekehrt, Simultan- und Konsekutivdolmetschen Mazedonisch-Deutsch.  Mitglied des mazedonischen Verband der Übersetzer - MATA
 				 </p>
             </div>
         </div> 
@@ -74,7 +74,7 @@
           Martin Tonevski
          </h1>
          <p >
-          Wir sind etwas besonderes!
+         Project Manager; Dipl.-Übers Englisch, Deutsch, Mazedonisch. Vereideter Gerichtsübersetzer für Englisch und Mazedonisch.Fachexpertise: Medizin und IKT
          </p>
             </div>
         </div> 
@@ -88,10 +88,10 @@
         <div class="col-sm-8">
             <div class="contentHolder" >
          <h1 >
-          Elena Boshkovska
+          Marlene
          </h1>
          <p >
-          Wir sind etwas besonderes!
+          Marlene Gräfin von Baden-Bunjakovec - Rezeption und Kundenbeziehungen
          </p>
             </div>
         </div> 
@@ -105,10 +105,10 @@
         <div class="col-sm-8">
             <div class="contentHolder" >
          <h1 >
-          Marlene
+          Das Nemo - Team
          </h1>
          <p >
-         Marlene Gräfin von Baden-Bunjakovec - Rezeption und Kundenbeziehungen
+         Abteilung für Stress Management
          </p>
             </div>
         </div> 
@@ -123,7 +123,7 @@
          </h1>
          <p style="font-family: 'Bariol_Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
                    color: #999;">
-          Wir bedanken uns recht herzlich bei allen externen Übersetzern und Dolmetschern, die es ermöglicht haben, dass Letra Translations immer hochwertig und termingerecht in den letzen Jahren gearbeitet danken: Lile, Sanja, Igor, Tanja, Vlatko, Nadica, Jana, Tamara, Maja, Vale, Adrijana, Elena, Renata, Marija, Nikola, Oliver, Ardian, Blerina, Zvezdan und allen anderen die ihre Hingabe, Leidenschaft und Profesionalität für uns eingesetzt haben. 
+          Wir bedanken uns recht herzlich bei allen externen Übersetzern und Dolmetschern, die es ermöglicht haben, dass Letra Translations immer hochwertig und termingerecht in den letzen Jahren gearbeitet hat: Lile, Sanja, Igor, Tanja, Vlatko, Nadica, Jana, Tamara, Maja, Vale, Adrijana, Elena, Renata, Marija, Nikola, Oliver, Ardian, Blerina, Zvezdan und allen anderen die ihre Hingabe, Leidenschaft und Profesionalität für uns eingesetzt haben. 
          </p>
        </div>
       </div>

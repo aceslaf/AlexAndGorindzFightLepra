@@ -83,8 +83,8 @@
           <div class="contentHolder prored" >
 				    <center><h3> Hochwertigkeit</h3></center>
             <p>
-                Studien, langjährige Auslandsaufenthalte, zahlreiche Trainings und Semirane haben uns zufriedene Kunden gebracht mit denen wir unsere Erfahrung stets vertiefen .
-                Trotzdem hören wir mit dem Lernen nie auf. Da jeder Kunde verschieden ist,  gibt es Spezifika bei jeder Übersetzung, Terminologie und Dokument. Unser persönlicher Ansatz und gewidmete Kundenorientung gewährleisten den Erfolg unserer Dienste.
+                Studien, langjährige Auslandsaufenthalte, zahlreiche Trainings und Semirane haben uns zufriedene Kunden gebracht mit denen wir unsere Erfahrung stets vertiefen.
+                Trotzdem hören wir mit dem Lernen nie auf. Da jeder Kunde verschieden ist,  gibt es Spezifika bei jeder Übersetzung, Terminologie und Dokument. Unser persönlicher Ansatz und gewidmete Kundenorientung gewährleisten den Erfolg unserer Dienste. 
            </p>
             <br/>
             <center><h3>Schnelligkeit</h3></center>
@@ -95,7 +95,7 @@
             <br/>
             <center><h3>Verlässlichkeit und Diskretion</h3></center>
             <p>
-              Letra Translations verpflichtet sich darauf, dass jegliche mit uns aufgenommene Korrespondenz, unabhängig ob formell oder informell, verbindlich oder unverbindlich, schriftlich, elektronisch oder mündlich, geheimgehalten wird. 
+              Letra Translations verpflichtet sich darauf, dass jegliche mit uns aufgenommene Korrespondenz, unabhängig ob formell oder informell, verbindlich oder unverbindlich, schriftlich, elektronisch oder mündlich, geheimgehalten wird.
               Das gesamte Team von Letra Translation hat Geheimhaltungserklärungen unterzeichnet und das Unternehmen als juristische Person unterschreibt gerne einen NDA-Vertrag mit Ihnen.
             </p>
             <br/>
