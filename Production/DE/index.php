@@ -107,29 +107,20 @@
      <div style="max-width: 1150px; margin: 0 auto;">
      <div class="containter">
      <div class="row headerstuff">
-      
-        <div class="headerpic col-sm-6  ">
-        <div class="contentNoHover">
-          <!-- <img src="http://alldaycreative.co.uk/wp-content/themes/allday/images/new-slide-one.jpg"/> -->
-          <img src="../images/naslovnaSmall.jpg"/> 
-        </div>
-        <!-- <div class="contentHover">
-          <div class="item">
-	              
-					 <h1 class="fancyTitleFont colorGreen" style="
-                                font-family: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-                                color: rgb(165,182,42);
-                                text-align: center;" >
-						Mislam deka naslov e pozelen
-					 </h1>
-					 <p class="defaultFont"  style="font-family: "Bariol_Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-                                color: #999;
-                                text-align: justify; ">
-					 Letra Translations ist Ihr Übersetzungsbüro in Mazedonien. Fachübersetzungen, beglaubigte Dokumenten, Konferenzdolmetschen -wir sind spezialisiert für Deutsch, English, Spanisch und Mazedonisch, aber sehen Sie sich die anderen Sprachkombinationen die wir anbieten.
-					 </p>
-				   </div>
-           </div> -->
-          
+       <div class=" headerpic col-sm-6  ">
+    
+       <div class="contentNoHover contentHolder bigMessage">
+           <h1 class="fancyTitleFont colorGreen" style="text-align: center;"  >
+              Willkommen
+             </h1>
+             <p class="defaultFont"
+                style="text-align: justify;"
+                >
+            Letra Translations ist Ihr Übersetzungsbüro in Mazedonien. Fachübersetzungen, beglaubigte Dokumenten, Konferenzdolmetschen -wir sind spezialisiert für Deutsch, English, Spanisch und Mazedonisch, aber sehen Sie sich die anderen Sprachkombinationen die wir anbieten. 
+             </p>
+      </div>
+
+
         </div>
         <div class="col-sm-6 .defaultFont">
             <div class="contentHolder bigMessage" >
