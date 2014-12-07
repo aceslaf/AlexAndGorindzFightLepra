@@ -51,10 +51,15 @@
         function fixPicture(){
            var widthVrzHeight=2.13178294574; 
            var nWidth=$(window).width();   
+           $(".headerpic .item").hide();
            if(nWidth<768){
-             $(".headerpic img").attr("width",nWidth);
+             //$(".headerpic img").attr("width",nWidth);
+             $(".headerpic img").hide();
+             $(".headerpic .item").show();
              return;
            }
+           $(".headerpic .item").hide();
+           $(".headerpic img").show();
             if(nWidth<1400){
               $(".headerpic img").attr("width",825);	
               return;
@@ -87,7 +92,7 @@
 		      // "singleItem:true" is a shortcut for:
 		      // items : 1, 
 		      // itemsDesktop : false,
-		      // itemsDesktopSmall : false,
+		 //https://www.facebook.com/photo.php?fbid=1514769595465138&set=a.1452052581736840.1073741826.100007963366674&type=1     // itemsDesktopSmall : false,
 		      // itemsTablet: false,
 		      // itemsMobile : false
 		 
@@ -111,30 +116,30 @@
         <div class="headerpic col-sm-6  ">
         <div class="contentNoHover">
           <!-- <img src="http://alldaycreative.co.uk/wp-content/themes/allday/images/new-slide-one.jpg"/> -->
-          <img src="../images/naslovnaSmall.jpg"/> 
-        </div>
-        <!-- <div class="contentHover">
+          <img src="../images/naslovna2.jpg"/> 
           <div class="item">
-	              
-					 <h1 class="fancyTitleFont colorGreen" style="
+                
+           <h1 class="fancyTitleFont colorGreen" style="
                                 font-family: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
                                 color: rgb(165,182,42);
                                 text-align: center;" >
-						Mislam deka naslov e pozelen
-					 </h1>
-					 <p class="defaultFont"  style="font-family: "Bariol_Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            Willkomen
+           </h1>
+           <p class="defaultFont"  style='font-family: "Bariol_Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
                                 color: #999;
-                                text-align: justify; ">
-					 Letra Translations ist Ihr Übersetzungsbüro in Mazedonien. Fachübersetzungen, beglaubigte Dokumenten, Konferenzdolmetschen -wir sind spezialisiert für Deutsch, English, Spanisch und Mazedonisch, aber sehen Sie sich die anderen Sprachkombinationen die wir anbieten.
-					 </p>
-				   </div>
-           </div> -->
+                                text-align: justify; padding-left:10px; '>
+           Letra Translations ist Ihr Übersetzungsbüro in Mazedonien. Fachübersetzungen, beglaubigte Dokumenten, Konferenzdolmetschen -wir sind spezialisiert für Deutsch, English, Spanisch und Mazedonisch, aber sehen Sie sich die anderen Sprachkombinationen die wir anbieten. 
+           </p>
+           </div>
+          
+        </div>
+
           
         </div>
         <div class="col-sm-6 .defaultFont">
             <div class="contentHolder bigMessage" >
 			<div id="owl-demo" class="owl-carousel owl-theme" >
-	               <div class="item">
+	               <div class="item" >
 	              
 					 <h1 class="fancyTitleFont colorGreen"  >
 						Übersetzungen

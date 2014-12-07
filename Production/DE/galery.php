@@ -141,17 +141,32 @@
 		          <div class="row">
 		            <div class="span12">
 		              <div id="owl-demo" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
-		                     <div class="item">
-		                  		<img src="../images/img1.jpg" alt="The Last of us">
+		                 <div class="item">
+		                  		<img src="../images/galery/img1.png" alt="LETRA">
 				             </div>              
 				             <div class="item">
-				                  <img src="../images/img3.jpg" alt="The Last of us">
+				                  <img src="../images/galery/img2.jpg" alt="LETRA">
 				             </div> 
+                     <div class="item">
+                          <img src="../images/galery/img3.jpg" alt="LETRA">
+                     </div> 
+                     <div class="item">
+                          <img src="../images/galery/img4.jpg" alt="LETRA">
+                     </div>                    
+                     <div class="item">
+                          <img src="../images/galery/img7.jpg" alt="LETRA">
+                     </div> 
+                     <div class="item">
+                          <img src="../images/galery/img8.jpg" alt="LETRA">
+                     </div> 
+                     <div class="item">
+                          <img src="../images/galery/img9.jpg" alt="LETRA">
+                     </div> 
 				             <div class="item">
-				                  <img src="../images/img4.jpg" alt="The Last of us">
+				                  <img src="../images/galery/img10.jpg" alt="LETRA">
 				             </div>              
 				             <div class="item">
-				                  <img src="../images/cloud.jpg" alt="The Last of us">
+				                  <img src="../images/galery/img11.jpg" alt="LETRA">
 				             </div>      
 		              
 		            </div>

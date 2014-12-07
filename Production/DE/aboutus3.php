@@ -49,7 +49,7 @@
      <div class="row headerstuff">
       
         <div class="headerpic col-sm-4  ">
-          <img src="../images/TeamImage.png" width="250" />
+          <img src="../images/nina.png" width="250" />
         </div>
         <div class="col-sm-8">
             <div class="contentHolder" >
@@ -66,7 +66,7 @@
       <div class="row headerstuff">
       
         <div class="headerpic col-sm-4  ">
-           <img src="../images/TeamImage.png" width="250" />
+           <img src="../images/martin.jpg" width="250" />
         </div>
         <div class="col-sm-8">
             <div class="contentHolder" >
@@ -83,7 +83,7 @@
       <div class="row headerstuff">
       
         <div class="headerpic col-sm-4  ">
-           <img src="../images/TeamImage.png" width="250" />
+           <img src="../images/marlen.jpg" width="250" />
         </div>
         <div class="col-sm-8">
             <div class="contentHolder" >
@@ -100,7 +100,7 @@
        <div class="row headerstuff">
       
         <div class="headerpic col-sm-4  ">
-           <img src="../images/TeamImage.png" width="250" />
+           <img src="../images/ribi.jpg" width="250" />
         </div>
         <div class="col-sm-8">
             <div class="contentHolder" >

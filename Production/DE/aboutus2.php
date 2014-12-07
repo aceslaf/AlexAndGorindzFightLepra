@@ -34,7 +34,7 @@
          });
 
          function fixPicture(){
-          var widthVrzHeight=/*2.13178294574*/ 1; 
+          var widthVrzHeight=/*2.13178294574*/ 1.6; 
            var nWidth=$(window).width();   
            if(nWidth<768){   //ZA MOBILNI NEKA GO ZAFAKJA CELL EKRAN
              $(".headerpic>img").attr("width",nWidth);
@@ -77,7 +77,16 @@
       
         <div class="headerpic col-sm-6  ">
           <!-- <img src="http://upload.wikimedia.org/wikipedia/en/7/71/Deep-Magenta-Square%2C-1978.jpg"/> -->
-          <img src="../images/apstrakt.png"/>
+          <img src="../images/boutUs2.jpg"/>
+          <!-- <div class="item">                
+             <h1 class="fancyTitleFont colorGreen"  >
+              Willkomen
+             </h1>
+             <p class="defaultFont" style="text-align: justify;"
+                >
+             Letra Translations ist Ihr Übersetzungsbüro in Mazedonien. Fachübersetzungen, beglaubigte Dokumenten, Konferenzdolmetschen -wir sind spezialisiert für Deutsch, English, Spanisch und Mazedonisch, aber sehen Sie sich die anderen Sprachkombinationen die wir anbieten.
+             </p>
+           </div>   -->
         </div>
         <div class=" col-sm-6">
           <div class="contentHolder prored" >

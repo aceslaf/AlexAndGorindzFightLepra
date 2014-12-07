@@ -126,14 +126,14 @@
           <div id="map-canvas" style="width:100%;height:340px;"></div>
         </div>
         <div class="headerpic col-sm-6">
-          <center><strong style="font-size:18px;margin-bottom:10px;display:block;">ДРУШТВО ЗА ПРОМЕТ И УСЛУГИ ЛЕТРА ПРЕВОДИ ДООЕЛ СКОПЈЕ</strong>
-          Локација: ул. Коста Шахов 14a, 1000 Скопје - Центар</center><br/>
+          <center><strong style="font-size:18px;margin-bottom:10px;display:block;">Letra Prevodi DOOEL Skopje</strong>
+          ul. Kosta Shahov 14a MK-1000 Skopje</center><br/>
           <div class="row">
           <div style="width:50%;float:left;padding-left:15px;line-height: 18px;">
-           <strong>Телефон:</strong><br/>+389(2)3 214-572
+           <strong>Т:</strong><br/>+ 389 2 3 2 14 572
           </div>
           <div style="width:50%;float:right;text-align:right;line-height: 18px;">
-            <strong>Е-пошта:</strong><br/><a href="mailto:info@letraprevodi.mk">info@letraprevodi.mk</a>
+            <strong>Е:</strong><br/><a href="mailto:info@letraprevodi.mk">info@letraprevodi.mk; letraglobal@gmail.com</a>
           </div>
           </div>
           <form method="POST" style="margin-top:10px;">
@@ -141,7 +141,7 @@
             <label><input required placeholder="Ваш контакт" type="email" name="kontakt"/></label><br/>
             <label>Опис:<br/><textarea name="opis" required></textarea></label><br/>
             <button style="float:left;width:20%;min-width:70px;" type="submit">Испрати</button>
-            <div style="float:left;color:#999;margin-top:18px;width:80%;text-align:right;">Се обврзуваме на дискреција за секој испратен емаил</div>
+            <div style="float:left;color:#999;margin-top:18px;width:80%;text-align:right;">Ihr Weg zu uns im Zentrum von Skopje:</div>
           </form>
         </div> 
        
